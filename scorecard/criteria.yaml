@@ -1,0 +1,46 @@
+# Purpose: vendor-neutral criteria, weights and must-have gates for choosing coding agents.
+# Book: Coding Agents in the Enterprise, Chapter 3
+# Licence: MIT (see LICENSE)
+#
+# Scores run 0-4:
+#   0 = absent, 1 = roadmap only, 2 = partial, 3 = meets need, 4 = best in class.
+# Weights are points out of 100. `gate` is the minimum score a tool must reach;
+# a tool below any gate is disqualified whatever its total.
+# These weights suit a regulated bank. Change them to fit your organisation.
+
+criteria:
+  - id: sso_scim
+    name: SSO and SCIM provisioning
+    weight: 12
+    gate: 3
+  - id: audit_logs
+    name: Audit logs and SIEM export
+    weight: 12
+    gate: 3
+  - id: retention
+    name: Data retention and zero data retention
+    weight: 12
+    gate: 3
+  - id: managed_policy
+    name: Centrally managed policy
+    weight: 12
+    gate: 2
+  - id: mcp_control
+    name: MCP server allow and deny lists
+    weight: 8
+  - id: residency
+    name: Data residency options
+    weight: 10
+    gate: 2
+  - id: self_host
+    name: Self-hosted or own-cloud option
+    weight: 8
+  - id: ci_cloud_agents
+    name: CI and cloud agents
+    weight: 8
+  - id: pricing
+    name: Pricing predictability and spend caps
+    weight: 10
+  - id: model_choice
+    name: Model choice
+    weight: 8

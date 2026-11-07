@@ -1,0 +1,3572 @@
+[
+ {
+  "number": 1001,
+  "title": "Update cards logic (task 1001)",
+  "author": "dev12",
+  "labels": [],
+  "head_ref": "fix/task-1001",
+  "created_at": "2026-06-25T11:00:00Z",
+  "merged_at": "2026-06-26T05:20:52Z",
+  "first_review_at": "2026-06-25T16:48:47Z",
+  "additions": 90,
+  "deletions": 39,
+  "files": [
+   "src/reports/service.py",
+   "src/ledger/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1001"
+  ]
+ },
+ {
+  "number": 1002,
+  "title": "Add fx logic (task 1002)",
+  "author": "dev04",
+  "labels": [],
+  "head_ref": "chore/task-1002",
+  "created_at": "2026-06-25T09:00:00Z",
+  "merged_at": "2026-06-26T01:14:43Z",
+  "first_review_at": "2026-06-25T15:39:13Z",
+  "additions": 42,
+  "deletions": 18,
+  "files": [
+   "src/ledger/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1002"
+  ]
+ },
+ {
+  "number": 1003,
+  "title": "Update api logic (task 1003)",
+  "author": "dev17",
+  "labels": [],
+  "head_ref": "codex/task-1003",
+  "created_at": "2026-06-27T13:00:00Z",
+  "merged_at": "2026-06-28T20:07:27Z",
+  "first_review_at": "2026-06-27T22:03:29Z",
+  "additions": 572,
+  "deletions": 246,
+  "files": [
+   "src/cards/validators.py",
+   "src/kyc/models.py",
+   "src/kyc/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1003"
+  ]
+ },
+ {
+  "number": 1004,
+  "title": "Update kyc logic (task 1004)",
+  "author": "dev11",
+  "labels": [],
+  "head_ref": "claude/task-1004",
+  "created_at": "2026-06-28T11:00:00Z",
+  "merged_at": "2026-06-29T18:32:29Z",
+  "first_review_at": "2026-06-29T02:07:19Z",
+  "additions": 235,
+  "deletions": 101,
+  "files": [
+   "src/kyc/validators.py",
+   "src/reports/validators.py",
+   "src/payments/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1004"
+  ]
+ },
+ {
+  "number": 1005,
+  "title": "Add payments logic (task 1005)",
+  "author": "dev03",
+  "labels": [],
+  "head_ref": "chore/task-1005",
+  "created_at": "2026-06-28T16:00:00Z",
+  "merged_at": "2026-06-29T11:15:13Z",
+  "first_review_at": "2026-06-28T22:23:34Z",
+  "additions": 87,
+  "deletions": 38,
+  "files": [
+   "src/ledger/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1005"
+  ]
+ },
+ {
+  "number": 1006,
+  "title": "Update reports logic (task 1006)",
+  "author": "dev11",
+  "labels": [],
+  "head_ref": "feature/task-1006",
+  "created_at": "2026-06-28T11:00:00Z",
+  "merged_at": "2026-06-28T21:49:25Z",
+  "first_review_at": "2026-06-28T13:58:33Z",
+  "additions": 116,
+  "deletions": 51,
+  "files": [
+   "src/kyc/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1006"
+  ]
+ },
+ {
+  "number": 1007,
+  "title": "Add auth logic (task 1007)",
+  "author": "dev14",
+  "labels": [],
+  "head_ref": "chore/task-1007",
+  "created_at": "2026-06-29T13:00:00Z",
+  "merged_at": "2026-06-29T22:44:46Z",
+  "first_review_at": "2026-06-29T18:21:26Z",
+  "additions": 60,
+  "deletions": 27,
+  "files": [
+   "src/auth/routes.py",
+   "src/api/utils.py"
+  ],
+  "commit_messages": [
+   "Change for task 1007"
+  ]
+ },
+ {
+  "number": 1008,
+  "title": "Update ledger logic (task 1008)",
+  "author": "dev13",
+  "labels": [],
+  "head_ref": "chore/task-1008",
+  "created_at": "2026-06-29T12:00:00Z",
+  "merged_at": "2026-06-30T06:38:51Z",
+  "first_review_at": "2026-06-29T17:03:46Z",
+  "additions": 37,
+  "deletions": 17,
+  "files": [
+   "src/api/utils.py",
+   "src/auth/utils.py",
+   "src/auth/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1008"
+  ]
+ },
+ {
+  "number": 1009,
+  "title": "Add ledger logic (task 1009)",
+  "author": "dev13",
+  "labels": [],
+  "head_ref": "feature/task-1009",
+  "created_at": "2026-06-29T11:00:00Z",
+  "merged_at": "2026-06-30T00:08:54Z",
+  "first_review_at": "2026-06-29T13:18:12Z",
+  "additions": 49,
+  "deletions": 21,
+  "files": [
+   "src/ledger/service.py",
+   "src/api/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1009"
+  ]
+ },
+ {
+  "number": 1010,
+  "title": "Update payments logic (task 1010)",
+  "author": "dev18",
+  "labels": [],
+  "head_ref": "fix/task-1010",
+  "created_at": "2026-06-30T13:00:00Z",
+  "merged_at": "2026-07-01T01:30:21Z",
+  "first_review_at": "2026-06-30T16:19:32Z",
+  "additions": 39,
+  "deletions": 18,
+  "files": [
+   "src/kyc/validators.py",
+   "src/api/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1010"
+  ]
+ },
+ {
+  "number": 1011,
+  "title": "Add fx logic (task 1011)",
+  "author": "dev07",
+  "labels": [],
+  "head_ref": "copilot/task-1011",
+  "created_at": "2026-06-30T11:00:00Z",
+  "merged_at": "2026-07-01T13:36:48Z",
+  "first_review_at": "2026-06-30T23:07:06Z",
+  "additions": 147,
+  "deletions": 63,
+  "files": [
+   "src/auth/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1011"
+  ]
+ },
+ {
+  "number": 1012,
+  "title": "Add api logic (task 1012)",
+  "author": "dev03",
+  "labels": [],
+  "head_ref": "fix/task-1012",
+  "created_at": "2026-07-01T09:00:00Z",
+  "merged_at": "2026-07-02T01:29:59Z",
+  "first_review_at": "2026-07-01T13:35:08Z",
+  "additions": 113,
+  "deletions": 49,
+  "files": [
+   "src/reports/utils.py",
+   "src/kyc/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1012"
+  ]
+ },
+ {
+  "number": 1013,
+  "title": "Add reports logic (task 1013)",
+  "author": "dev12",
+  "labels": [],
+  "head_ref": "chore/task-1013",
+  "created_at": "2026-07-02T16:00:00Z",
+  "merged_at": "2026-07-03T08:44:14Z",
+  "first_review_at": "2026-07-03T02:41:25Z",
+  "additions": 59,
+  "deletions": 26,
+  "files": [
+   "src/api/jobs.py",
+   "src/api/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1013",
+   "Refactor task 1013\n\nCo-Authored-By: Claude <noreply@example.com>"
+  ]
+ },
+ {
+  "number": 1014,
+  "title": "Update auth logic (task 1014)",
+  "author": "example-agent[bot]",
+  "labels": [],
+  "head_ref": "chore/task-1014",
+  "created_at": "2026-07-02T15:00:00Z",
+  "merged_at": "2026-07-03T19:23:12Z",
+  "first_review_at": "2026-07-03T01:46:54Z",
+  "additions": 130,
+  "deletions": 57,
+  "files": [
+   "src/reports/models.py",
+   "src/cards/validators.py",
+   "src/ledger/jobs.py",
+   "src/auth/utils.py"
+  ],
+  "commit_messages": [
+   "Change for task 1014"
+  ]
+ },
+ {
+  "number": 1015,
+  "title": "Add reports logic (task 1015)",
+  "author": "dev10",
+  "labels": [
+   "agent-authored"
+  ],
+  "head_ref": "fix/task-1015",
+  "created_at": "2026-07-04T11:00:00Z",
+  "merged_at": "2026-07-05T00:56:22Z",
+  "first_review_at": "2026-07-04T13:18:55Z",
+  "additions": 191,
+  "deletions": 83,
+  "files": [
+   "src/cards/models.py",
+   "src/cards/utils.py",
+   "src/fx/jobs.py",
+   "src/ledger/models.py",
+   "src/payments/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1015"
+  ]
+ },
+ {
+  "number": 1016,
+  "title": "Add auth logic (task 1016)",
+  "author": "dev03",
+  "labels": [],
+  "head_ref": "chore/task-1016",
+  "created_at": "2026-07-04T16:00:00Z",
+  "merged_at": "2026-07-05T06:32:07Z",
+  "first_review_at": "2026-07-04T22:08:05Z",
+  "additions": 64,
+  "deletions": 28,
+  "files": [
+   "src/payments/routes.py",
+   "src/payments/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1016"
+  ]
+ },
+ {
+  "number": 1017,
+  "title": "Add ledger logic (task 1017)",
+  "author": "dev07",
+  "labels": [],
+  "head_ref": "chore/task-1017",
+  "created_at": "2026-07-05T11:00:00Z",
+  "merged_at": "2026-07-06T15:14:57Z",
+  "first_review_at": "2026-07-06T10:09:22Z",
+  "additions": 262,
+  "deletions": 113,
+  "files": [
+   "src/api/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1017",
+   "Refactor task 1017\n\nCo-Authored-By: Claude <noreply@example.com>"
+  ]
+ },
+ {
+  "number": 1018,
+  "title": "Add fx logic (task 1018)",
+  "author": "example-agent[bot]",
+  "labels": [],
+  "head_ref": "fix/task-1018",
+  "created_at": "2026-07-05T09:00:00Z",
+  "merged_at": "2026-07-05T20:30:40Z",
+  "first_review_at": "2026-07-05T15:29:35Z",
+  "additions": 168,
+  "deletions": 73,
+  "files": [
+   "src/fx/utils.py",
+   "src/kyc/validators.py",
+   "src/reports/routes.py",
+   "src/kyc/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1018"
+  ]
+ },
+ {
+  "number": 1019,
+  "title": "Update ledger logic (task 1019)",
+  "author": "dev15",
+  "labels": [],
+  "head_ref": "copilot/task-1019",
+  "created_at": "2026-07-06T16:00:00Z",
+  "merged_at": "2026-07-08T04:50:21Z",
+  "first_review_at": "2026-07-07T06:52:53Z",
+  "additions": 795,
+  "deletions": 341,
+  "files": [
+   "src/payments/utils.py"
+  ],
+  "commit_messages": [
+   "Change for task 1019"
+  ]
+ },
+ {
+  "number": 1020,
+  "title": "Update payments logic (task 1020)",
+  "author": "dev04",
+  "labels": [],
+  "head_ref": "claude/task-1020",
+  "created_at": "2026-07-06T16:00:00Z",
+  "merged_at": "2026-07-07T16:48:58Z",
+  "first_review_at": "2026-07-07T02:58:50Z",
+  "additions": 155,
+  "deletions": 67,
+  "files": [
+   "src/api/routes.py",
+   "src/api/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1020"
+  ]
+ },
+ {
+  "number": 1021,
+  "title": "Update payments logic (task 1021)",
+  "author": "example-agent[bot]",
+  "labels": [],
+  "head_ref": "fix/task-1021",
+  "created_at": "2026-07-08T10:00:00Z",
+  "merged_at": "2026-07-09T15:02:29Z",
+  "first_review_at": "2026-07-08T13:01:33Z",
+  "additions": 98,
+  "deletions": 42,
+  "files": [
+   "src/kyc/routes.py",
+   "src/fx/service.py",
+   "src/api/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1021"
+  ]
+ },
+ {
+  "number": 1022,
+  "title": "Add fx logic (task 1022)",
+  "author": "dev18",
+  "labels": [
+   "agent-authored"
+  ],
+  "head_ref": "feature/task-1022",
+  "created_at": "2026-07-08T14:00:00Z",
+  "merged_at": "2026-07-09T12:21:31Z",
+  "first_review_at": "2026-07-09T05:56:18Z",
+  "additions": 95,
+  "deletions": 42,
+  "files": [
+   "src/api/service.py",
+   "src/auth/jobs.py",
+   "src/api/routes.py",
+   "src/payments/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1022"
+  ]
+ },
+ {
+  "number": 1023,
+  "title": "Add ledger logic (task 1023)",
+  "author": "dev18",
+  "labels": [],
+  "head_ref": "claude/task-1023",
+  "created_at": "2026-07-08T14:00:00Z",
+  "merged_at": "2026-07-09T07:06:12Z",
+  "first_review_at": "2026-07-08T17:44:15Z",
+  "additions": 107,
+  "deletions": 47,
+  "files": [
+   "src/reports/validators.py",
+   "src/cards/models.py",
+   "src/ledger/jobs.py",
+   "src/auth/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1023"
+  ]
+ },
+ {
+  "number": 1024,
+  "title": "Update reports logic (task 1024)",
+  "author": "dev14",
+  "labels": [],
+  "head_ref": "feature/task-1024",
+  "created_at": "2026-07-09T13:00:00Z",
+  "merged_at": "2026-07-10T23:24:22Z",
+  "first_review_at": "2026-07-09T17:37:04Z",
+  "additions": 158,
+  "deletions": 69,
+  "files": [
+   "src/payments/routes.py",
+   "src/payments/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1024"
+  ]
+ },
+ {
+  "number": 1025,
+  "title": "Update auth logic (task 1025)",
+  "author": "dev12",
+  "labels": [],
+  "head_ref": "codex/task-1025",
+  "created_at": "2026-07-09T09:00:00Z",
+  "merged_at": "2026-07-10T06:21:20Z",
+  "first_review_at": "2026-07-09T17:51:48Z",
+  "additions": 156,
+  "deletions": 68,
+  "files": [
+   "src/api/routes.py",
+   "src/api/service.py",
+   "src/fx/validators.py",
+   "src/kyc/utils.py",
+   "src/kyc/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1025"
+  ]
+ },
+ {
+  "number": 1026,
+  "title": "Add fx logic (task 1026)",
+  "author": "dev04",
+  "labels": [],
+  "head_ref": "copilot/task-1026",
+  "created_at": "2026-07-11T09:00:00Z",
+  "merged_at": "2026-07-12T05:35:34Z",
+  "first_review_at": "2026-07-11T13:36:56Z",
+  "additions": 291,
+  "deletions": 125,
+  "files": [
+   "src/cards/routes.py",
+   "src/payments/routes.py",
+   "src/ledger/utils.py",
+   "src/payments/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1026"
+  ]
+ },
+ {
+  "number": 1027,
+  "title": "Add cards logic (task 1027)",
+  "author": "dev05",
+  "labels": [],
+  "head_ref": "fix/task-1027",
+  "created_at": "2026-07-12T13:00:00Z",
+  "merged_at": "2026-07-13T10:22:00Z",
+  "first_review_at": "2026-07-12T23:00:38Z",
+  "additions": 127,
+  "deletions": 55,
+  "files": [
+   "src/payments/utils.py",
+   "src/ledger/service.py",
+   "src/ledger/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1027"
+  ]
+ },
+ {
+  "number": 1028,
+  "title": "Update api logic (task 1028)",
+  "author": "dev10",
+  "labels": [],
+  "head_ref": "chore/task-1028",
+  "created_at": "2026-07-12T11:00:00Z",
+  "merged_at": "2026-07-13T10:35:29Z",
+  "first_review_at": "2026-07-12T16:41:32Z",
+  "additions": 44,
+  "deletions": 19,
+  "files": [
+   "src/kyc/routes.py",
+   "src/fx/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1028"
+  ]
+ },
+ {
+  "number": 1029,
+  "title": "Update cards logic (task 1029)",
+  "author": "dev06",
+  "labels": [],
+  "head_ref": "codex/task-1029",
+  "created_at": "2026-07-12T09:00:00Z",
+  "merged_at": "2026-07-13T14:51:24Z",
+  "first_review_at": "2026-07-12T22:33:41Z",
+  "additions": 61,
+  "deletions": 27,
+  "files": [
+   "src/auth/validators.py",
+   "src/auth/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1029"
+  ]
+ },
+ {
+  "number": 1030,
+  "title": "Add reports logic (task 1030)",
+  "author": "dev13",
+  "labels": [],
+  "head_ref": "chore/task-1030",
+  "created_at": "2026-07-13T17:00:00Z",
+  "merged_at": "2026-07-14T18:24:18Z",
+  "first_review_at": "2026-07-14T09:05:21Z",
+  "additions": 44,
+  "deletions": 20,
+  "files": [
+   "src/payments/routes.py",
+   "src/kyc/jobs.py",
+   "src/fx/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1030"
+  ]
+ },
+ {
+  "number": 1031,
+  "title": "Add cards logic (task 1031)",
+  "author": "dev02",
+  "labels": [],
+  "head_ref": "feature/task-1031",
+  "created_at": "2026-07-13T14:00:00Z",
+  "merged_at": "2026-07-14T11:20:48Z",
+  "first_review_at": "2026-07-13T17:17:05Z",
+  "additions": 57,
+  "deletions": 25,
+  "files": [
+   "src/ledger/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1031"
+  ]
+ },
+ {
+  "number": 1032,
+  "title": "Add api logic (task 1032)",
+  "author": "dev15",
+  "labels": [],
+  "head_ref": "feature/task-1032",
+  "created_at": "2026-07-13T13:00:00Z",
+  "merged_at": "2026-07-15T12:06:35Z",
+  "first_review_at": "2026-07-13T22:53:58Z",
+  "additions": 115,
+  "deletions": 50,
+  "files": [
+   "src/reports/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1032"
+  ]
+ },
+ {
+  "number": 1033,
+  "title": "Add ledger logic (task 1033)",
+  "author": "dev12",
+  "labels": [],
+  "head_ref": "fix/task-1033",
+  "created_at": "2026-07-14T12:00:00Z",
+  "merged_at": "2026-07-15T00:29:36Z",
+  "first_review_at": "2026-07-14T17:03:11Z",
+  "additions": 55,
+  "deletions": 24,
+  "files": [
+   "src/kyc/utils.py",
+   "src/fx/routes.py",
+   "src/cards/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1033"
+  ]
+ },
+ {
+  "number": 1034,
+  "title": "Add payments logic (task 1034)",
+  "author": "dev06",
+  "labels": [],
+  "head_ref": "feature/task-1034",
+  "created_at": "2026-07-14T10:00:00Z",
+  "merged_at": "2026-07-14T22:25:58Z",
+  "first_review_at": "2026-07-14T14:55:26Z",
+  "additions": 58,
+  "deletions": 26,
+  "files": [
+   "src/reports/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1034"
+  ]
+ },
+ {
+  "number": 1035,
+  "title": "Update kyc logic (task 1035)",
+  "author": "dev10",
+  "labels": [],
+  "head_ref": "fix/task-1035",
+  "created_at": "2026-07-16T09:00:00Z",
+  "merged_at": "2026-07-16T20:22:03Z",
+  "first_review_at": "2026-07-16T10:20:52Z",
+  "additions": 213,
+  "deletions": 92,
+  "files": [
+   "src/fx/validators.py",
+   "src/fx/models.py",
+   "src/api/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1035"
+  ]
+ },
+ {
+  "number": 1036,
+  "title": "Add reports logic (task 1036)",
+  "author": "dev13",
+  "labels": [],
+  "head_ref": "feature/task-1036",
+  "created_at": "2026-07-16T17:00:00Z",
+  "merged_at": "2026-07-17T08:14:39Z",
+  "first_review_at": "2026-07-17T02:05:06Z",
+  "additions": 11,
+  "deletions": 6,
+  "files": [
+   "src/fx/routes.py",
+   "src/payments/models.py",
+   "src/fx/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1036"
+  ]
+ },
+ {
+  "number": 1037,
+  "title": "Add auth logic (task 1037)",
+  "author": "dev18",
+  "labels": [],
+  "head_ref": "chore/task-1037",
+  "created_at": "2026-07-16T11:00:00Z",
+  "merged_at": "2026-07-17T04:44:17Z",
+  "first_review_at": "2026-07-16T13:37:07Z",
+  "additions": 71,
+  "deletions": 31,
+  "files": [
+   "src/auth/utils.py",
+   "src/payments/jobs.py",
+   "src/ledger/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1037"
+  ]
+ },
+ {
+  "number": 1038,
+  "title": "Add reports logic (task 1038)",
+  "author": "dev16",
+  "labels": [],
+  "head_ref": "chore/task-1038",
+  "created_at": "2026-07-17T13:00:00Z",
+  "merged_at": "2026-07-18T09:48:36Z",
+  "first_review_at": "2026-07-17T18:46:43Z",
+  "additions": 71,
+  "deletions": 31,
+  "files": [
+   "src/payments/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1038"
+  ]
+ },
+ {
+  "number": 1039,
+  "title": "Add fx logic (task 1039)",
+  "author": "dev11",
+  "labels": [],
+  "head_ref": "fix/task-1039",
+  "created_at": "2026-07-17T10:00:00Z",
+  "merged_at": "2026-07-18T06:26:33Z",
+  "first_review_at": "2026-07-17T15:05:33Z",
+  "additions": 88,
+  "deletions": 39,
+  "files": [
+   "src/auth/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1039"
+  ]
+ },
+ {
+  "number": 1040,
+  "title": "Update reports logic (task 1040)",
+  "author": "dev14",
+  "labels": [],
+  "head_ref": "feature/task-1040",
+  "created_at": "2026-07-18T15:00:00Z",
+  "merged_at": "2026-07-19T07:09:37Z",
+  "first_review_at": "2026-07-18T20:02:31Z",
+  "additions": 50,
+  "deletions": 22,
+  "files": [
+   "src/ledger/service.py",
+   "src/fx/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1040"
+  ]
+ },
+ {
+  "number": 1041,
+  "title": "Add reports logic (task 1041)",
+  "author": "dev12",
+  "labels": [],
+  "head_ref": "chore/task-1041",
+  "created_at": "2026-07-18T11:00:00Z",
+  "merged_at": "2026-07-18T20:31:56Z",
+  "first_review_at": "2026-07-18T16:20:45Z",
+  "additions": 39,
+  "deletions": 17,
+  "files": [
+   "src/payments/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1041"
+  ]
+ },
+ {
+  "number": 1042,
+  "title": "Add api logic (task 1042)",
+  "author": "dev08",
+  "labels": [],
+  "head_ref": "fix/task-1042",
+  "created_at": "2026-07-18T13:00:00Z",
+  "merged_at": "2026-07-19T10:56:48Z",
+  "first_review_at": "2026-07-19T03:03:43Z",
+  "additions": 399,
+  "deletions": 172,
+  "files": [
+   "src/fx/service.py",
+   "src/kyc/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1042",
+   "Refactor task 1042\n\nCo-Authored-By: Claude <noreply@example.com>"
+  ]
+ },
+ {
+  "number": 1043,
+  "title": "Add payments logic (task 1043)",
+  "author": "example-agent[bot]",
+  "labels": [],
+  "head_ref": "feature/task-1043",
+  "created_at": "2026-07-19T16:00:00Z",
+  "merged_at": "2026-07-20T10:30:49Z",
+  "first_review_at": "2026-07-19T20:42:14Z",
+  "additions": 126,
+  "deletions": 55,
+  "files": [
+   "src/ledger/routes.py",
+   "src/auth/routes.py",
+   "src/api/utils.py"
+  ],
+  "commit_messages": [
+   "Change for task 1043"
+  ]
+ },
+ {
+  "number": 1044,
+  "title": "Add reports logic (task 1044)",
+  "author": "dev04",
+  "labels": [],
+  "head_ref": "fix/task-1044",
+  "created_at": "2026-07-20T16:00:00Z",
+  "merged_at": "2026-07-21T03:41:42Z",
+  "first_review_at": "2026-07-20T22:26:29Z",
+  "additions": 24,
+  "deletions": 11,
+  "files": [
+   "src/payments/routes.py",
+   "src/cards/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1044"
+  ]
+ },
+ {
+  "number": 1045,
+  "title": "Update api logic (task 1045)",
+  "author": "dev01",
+  "labels": [],
+  "head_ref": "fix/task-1045",
+  "created_at": "2026-07-20T16:00:00Z",
+  "merged_at": "2026-07-21T14:25:57Z",
+  "first_review_at": "2026-07-21T01:30:16Z",
+  "additions": 130,
+  "deletions": 57,
+  "files": [
+   "src/payments/jobs.py",
+   "src/kyc/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1045"
+  ]
+ },
+ {
+  "number": 1046,
+  "title": "Add cards logic (task 1046)",
+  "author": "dev17",
+  "labels": [],
+  "head_ref": "codex/task-1046",
+  "created_at": "2026-07-23T16:00:00Z",
+  "merged_at": "2026-07-25T02:46:31Z",
+  "first_review_at": "2026-07-24T03:58:15Z",
+  "additions": 30,
+  "deletions": 13,
+  "files": [
+   "src/fx/utils.py",
+   "src/kyc/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1046"
+  ]
+ },
+ {
+  "number": 1047,
+  "title": "Add payments logic (task 1047)",
+  "author": "dev10",
+  "labels": [],
+  "head_ref": "feature/task-1047",
+  "created_at": "2026-07-26T12:00:00Z",
+  "merged_at": "2026-07-27T06:08:14Z",
+  "first_review_at": "2026-07-26T18:39:30Z",
+  "additions": 72,
+  "deletions": 31,
+  "files": [
+   "src/payments/jobs.py",
+   "src/fx/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1047"
+  ]
+ },
+ {
+  "number": 1048,
+  "title": "Add cards logic (task 1048)",
+  "author": "dev04",
+  "labels": [],
+  "head_ref": "feature/task-1048",
+  "created_at": "2026-07-26T12:00:00Z",
+  "merged_at": "2026-07-26T22:52:15Z",
+  "first_review_at": "2026-07-26T14:51:56Z",
+  "additions": 23,
+  "deletions": 11,
+  "files": [
+   "src/cards/utils.py",
+   "src/fx/utils.py"
+  ],
+  "commit_messages": [
+   "Change for task 1048"
+  ]
+ },
+ {
+  "number": 1049,
+  "title": "Update auth logic (task 1049)",
+  "author": "dev18",
+  "labels": [],
+  "head_ref": "feature/task-1049",
+  "created_at": "2026-07-26T11:00:00Z",
+  "merged_at": "2026-07-27T01:28:12Z",
+  "first_review_at": "2026-07-26T18:13:46Z",
+  "additions": 59,
+  "deletions": 26,
+  "files": [
+   "src/ledger/models.py",
+   "src/ledger/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1049"
+  ]
+ },
+ {
+  "number": 1050,
+  "title": "Add api logic (task 1050)",
+  "author": "dev10",
+  "labels": [
+   "agent-authored"
+  ],
+  "head_ref": "chore/task-1050",
+  "created_at": "2026-07-27T14:00:00Z",
+  "merged_at": "2026-07-28T12:21:04Z",
+  "first_review_at": "2026-07-27T22:05:51Z",
+  "additions": 288,
+  "deletions": 124,
+  "files": [
+   "src/reports/validators.py",
+   "src/ledger/utils.py"
+  ],
+  "commit_messages": [
+   "Change for task 1050"
+  ]
+ },
+ {
+  "number": 1051,
+  "title": "Add kyc logic (task 1051)",
+  "author": "example-agent[bot]",
+  "labels": [],
+  "head_ref": "feature/task-1051",
+  "created_at": "2026-07-27T17:00:00Z",
+  "merged_at": "2026-07-28T18:14:13Z",
+  "first_review_at": "2026-07-27T22:10:10Z",
+  "additions": 65,
+  "deletions": 28,
+  "files": [
+   "src/reports/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1051"
+  ]
+ },
+ {
+  "number": 1052,
+  "title": "Update auth logic (task 1052)",
+  "author": "dev01",
+  "labels": [],
+  "head_ref": "feature/task-1052",
+  "created_at": "2026-07-27T10:00:00Z",
+  "merged_at": "2026-07-28T20:42:55Z",
+  "first_review_at": "2026-07-28T09:36:44Z",
+  "additions": 79,
+  "deletions": 35,
+  "files": [
+   "src/auth/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1052"
+  ]
+ },
+ {
+  "number": 1053,
+  "title": "Add ledger logic (task 1053)",
+  "author": "dev03",
+  "labels": [],
+  "head_ref": "fix/task-1053",
+  "created_at": "2026-07-29T14:00:00Z",
+  "merged_at": "2026-07-30T13:05:14Z",
+  "first_review_at": "2026-07-29T18:36:32Z",
+  "additions": 36,
+  "deletions": 16,
+  "files": [
+   "src/cards/service.py",
+   "src/reports/utils.py",
+   "src/fx/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1053"
+  ]
+ },
+ {
+  "number": 1054,
+  "title": "Update cards logic (task 1054)",
+  "author": "dev09",
+  "labels": [],
+  "head_ref": "claude/task-1054",
+  "created_at": "2026-07-29T13:00:00Z",
+  "merged_at": "2026-07-30T14:54:14Z",
+  "first_review_at": "2026-07-30T02:27:47Z",
+  "additions": 59,
+  "deletions": 26,
+  "files": [
+   "src/ledger/utils.py",
+   "src/reports/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1054"
+  ]
+ },
+ {
+  "number": 1055,
+  "title": "Add payments logic (task 1055)",
+  "author": "dev02",
+  "labels": [
+   "agent-authored"
+  ],
+  "head_ref": "feature/task-1055",
+  "created_at": "2026-07-30T17:00:00Z",
+  "merged_at": "2026-07-31T19:46:24Z",
+  "first_review_at": "2026-07-31T13:36:23Z",
+  "additions": 30,
+  "deletions": 14,
+  "files": [
+   "src/kyc/utils.py",
+   "src/api/jobs.py",
+   "src/kyc/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1055"
+  ]
+ },
+ {
+  "number": 1056,
+  "title": "Update cards logic (task 1056)",
+  "author": "dev05",
+  "labels": [
+   "agent-authored"
+  ],
+  "head_ref": "chore/task-1056",
+  "created_at": "2026-07-30T09:00:00Z",
+  "merged_at": "2026-07-30T21:07:52Z",
+  "first_review_at": "2026-07-30T10:51:26Z",
+  "additions": 206,
+  "deletions": 89,
+  "files": [
+   "src/fx/validators.py",
+   "src/auth/utils.py",
+   "src/cards/models.py",
+   "src/api/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1056"
+  ]
+ },
+ {
+  "number": 1057,
+  "title": "Update kyc logic (task 1057)",
+  "author": "example-agent[bot]",
+  "labels": [],
+  "head_ref": "chore/task-1057",
+  "created_at": "2026-07-30T10:00:00Z",
+  "merged_at": "2026-07-31T13:57:34Z",
+  "first_review_at": "2026-07-30T14:32:45Z",
+  "additions": 297,
+  "deletions": 128,
+  "files": [
+   "src/kyc/jobs.py",
+   "src/auth/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1057"
+  ]
+ },
+ {
+  "number": 1058,
+  "title": "Update reports logic (task 1058)",
+  "author": "dev11",
+  "labels": [],
+  "head_ref": "fix/task-1058",
+  "created_at": "2026-07-31T14:00:00Z",
+  "merged_at": "2026-08-01T11:08:37Z",
+  "first_review_at": "2026-07-31T15:50:06Z",
+  "additions": 62,
+  "deletions": 28,
+  "files": [
+   "src/api/utils.py",
+   "src/auth/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1058"
+  ]
+ },
+ {
+  "number": 1059,
+  "title": "Add api logic (task 1059)",
+  "author": "dev03",
+  "labels": [],
+  "head_ref": "claude/task-1059",
+  "created_at": "2026-07-31T13:00:00Z",
+  "merged_at": "2026-08-01T20:41:39Z",
+  "first_review_at": "2026-08-01T03:10:16Z",
+  "additions": 331,
+  "deletions": 142,
+  "files": [
+   "src/auth/jobs.py",
+   "src/api/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1059"
+  ]
+ },
+ {
+  "number": 1060,
+  "title": "Add payments logic (task 1060)",
+  "author": "dev17",
+  "labels": [],
+  "head_ref": "feature/task-1060",
+  "created_at": "2026-07-31T15:00:00Z",
+  "merged_at": "2026-08-01T02:15:23Z",
+  "first_review_at": "2026-07-31T17:45:13Z",
+  "additions": 25,
+  "deletions": 12,
+  "files": [
+   "src/reports/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1060"
+  ]
+ },
+ {
+  "number": 1061,
+  "title": "Update ledger logic (task 1061)",
+  "author": "dev03",
+  "labels": [],
+  "head_ref": "fix/task-1061",
+  "created_at": "2026-08-01T12:00:00Z",
+  "merged_at": "2026-08-02T14:08:49Z",
+  "first_review_at": "2026-08-01T13:58:23Z",
+  "additions": 39,
+  "deletions": 18,
+  "files": [
+   "src/api/validators.py",
+   "src/cards/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1061"
+  ]
+ },
+ {
+  "number": 1062,
+  "title": "Update payments logic (task 1062)",
+  "author": "dev16",
+  "labels": [
+   "agent-authored"
+  ],
+  "head_ref": "fix/task-1062",
+  "created_at": "2026-08-01T17:00:00Z",
+  "merged_at": "2026-08-02T20:53:29Z",
+  "first_review_at": "2026-08-02T10:08:55Z",
+  "additions": 207,
+  "deletions": 90,
+  "files": [
+   "src/reports/utils.py"
+  ],
+  "commit_messages": [
+   "Change for task 1062"
+  ]
+ },
+ {
+  "number": 1063,
+  "title": "Add fx logic (task 1063)",
+  "author": "dev13",
+  "labels": [],
+  "head_ref": "feature/task-1063",
+  "created_at": "2026-08-02T09:00:00Z",
+  "merged_at": "2026-08-02T15:11:46Z",
+  "first_review_at": "2026-08-02T11:27:23Z",
+  "additions": 54,
+  "deletions": 24,
+  "files": [
+   "src/reports/utils.py",
+   "src/reports/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1063"
+  ]
+ },
+ {
+  "number": 1064,
+  "title": "Update auth logic (task 1064)",
+  "author": "dev13",
+  "labels": [],
+  "head_ref": "fix/task-1064",
+  "created_at": "2026-08-02T11:00:00Z",
+  "merged_at": "2026-08-03T08:51:34Z",
+  "first_review_at": "2026-08-02T14:19:21Z",
+  "additions": 56,
+  "deletions": 24,
+  "files": [
+   "src/fx/utils.py"
+  ],
+  "commit_messages": [
+   "Change for task 1064"
+  ]
+ },
+ {
+  "number": 1065,
+  "title": "Update fx logic (task 1065)",
+  "author": "dev11",
+  "labels": [],
+  "head_ref": "chore/task-1065",
+  "created_at": "2026-08-02T09:00:00Z",
+  "merged_at": "2026-08-03T09:08:05Z",
+  "first_review_at": "2026-08-02T19:55:36Z",
+  "additions": 70,
+  "deletions": 30,
+  "files": [
+   "src/reports/jobs.py",
+   "src/kyc/models.py",
+   "src/payments/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1065"
+  ]
+ },
+ {
+  "number": 1066,
+  "title": "Add fx logic (task 1066)",
+  "author": "dev03",
+  "labels": [],
+  "head_ref": "feature/task-1066",
+  "created_at": "2026-08-03T17:00:00Z",
+  "merged_at": "2026-08-05T01:05:09Z",
+  "first_review_at": "2026-08-03T22:40:27Z",
+  "additions": 58,
+  "deletions": 25,
+  "files": [
+   "src/api/validators.py",
+   "src/fx/routes.py",
+   "src/auth/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1066"
+  ]
+ },
+ {
+  "number": 1067,
+  "title": "Add fx logic (task 1067)",
+  "author": "dev12",
+  "labels": [],
+  "head_ref": "fix/task-1067",
+  "created_at": "2026-08-03T15:00:00Z",
+  "merged_at": "2026-08-04T02:47:41Z",
+  "first_review_at": "2026-08-03T20:02:31Z",
+  "additions": 805,
+  "deletions": 345,
+  "files": [
+   "src/fx/service.py",
+   "src/auth/models.py",
+   "src/kyc/jobs.py",
+   "src/cards/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1067",
+   "Refactor task 1067\n\nCo-Authored-By: Claude <noreply@example.com>"
+  ]
+ },
+ {
+  "number": 1068,
+  "title": "Update payments logic (task 1068)",
+  "author": "dev05",
+  "labels": [],
+  "head_ref": "fix/task-1068",
+  "created_at": "2026-08-05T11:00:00Z",
+  "merged_at": "2026-08-07T04:17:30Z",
+  "first_review_at": "2026-08-05T12:58:28Z",
+  "additions": 217,
+  "deletions": 94,
+  "files": [
+   "src/auth/routes.py",
+   "src/fx/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1068"
+  ]
+ },
+ {
+  "number": 1069,
+  "title": "Update kyc logic (task 1069)",
+  "author": "dev12",
+  "labels": [],
+  "head_ref": "feature/task-1069",
+  "created_at": "2026-08-05T14:00:00Z",
+  "merged_at": "2026-08-06T05:48:10Z",
+  "first_review_at": "2026-08-05T18:25:57Z",
+  "additions": 123,
+  "deletions": 53,
+  "files": [
+   "src/auth/jobs.py",
+   "src/kyc/models.py",
+   "src/ledger/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1069"
+  ]
+ },
+ {
+  "number": 1070,
+  "title": "Update reports logic (task 1070)",
+  "author": "dev05",
+  "labels": [],
+  "head_ref": "feature/task-1070",
+  "created_at": "2026-08-05T17:00:00Z",
+  "merged_at": "2026-08-06T09:58:17Z",
+  "first_review_at": "2026-08-06T01:23:18Z",
+  "additions": 78,
+  "deletions": 34,
+  "files": [
+   "src/api/utils.py",
+   "src/cards/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1070"
+  ]
+ },
+ {
+  "number": 1071,
+  "title": "Update fx logic (task 1071)",
+  "author": "dev07",
+  "labels": [],
+  "head_ref": "chore/task-1071",
+  "created_at": "2026-08-06T10:00:00Z",
+  "merged_at": "2026-08-07T04:21:58Z",
+  "first_review_at": "2026-08-06T14:56:19Z",
+  "additions": 113,
+  "deletions": 49,
+  "files": [
+   "src/ledger/utils.py",
+   "src/reports/models.py",
+   "src/api/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1071"
+  ]
+ },
+ {
+  "number": 1072,
+  "title": "Add auth logic (task 1072)",
+  "author": "dev11",
+  "labels": [],
+  "head_ref": "chore/task-1072",
+  "created_at": "2026-08-06T15:00:00Z",
+  "merged_at": "2026-08-07T08:25:51Z",
+  "first_review_at": "2026-08-06T20:28:13Z",
+  "additions": 69,
+  "deletions": 30,
+  "files": [
+   "src/kyc/routes.py",
+   "src/cards/routes.py",
+   "src/kyc/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1072"
+  ]
+ },
+ {
+  "number": 1073,
+  "title": "Update cards logic (task 1073)",
+  "author": "dev16",
+  "labels": [
+   "agent-authored"
+  ],
+  "head_ref": "fix/task-1073",
+  "created_at": "2026-08-07T14:00:00Z",
+  "merged_at": "2026-08-08T06:02:02Z",
+  "first_review_at": "2026-08-07T18:20:52Z",
+  "additions": 194,
+  "deletions": 84,
+  "files": [
+   "src/auth/utils.py",
+   "src/auth/jobs.py",
+   "src/reports/jobs.py",
+   "src/api/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1073"
+  ]
+ },
+ {
+  "number": 1074,
+  "title": "Add fx logic (task 1074)",
+  "author": "dev13",
+  "labels": [],
+  "head_ref": "chore/task-1074",
+  "created_at": "2026-08-07T10:00:00Z",
+  "merged_at": "2026-08-08T09:40:56Z",
+  "first_review_at": "2026-08-07T12:51:12Z",
+  "additions": 11,
+  "deletions": 6,
+  "files": [
+   "src/payments/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1074"
+  ]
+ },
+ {
+  "number": 1075,
+  "title": "Add api logic (task 1075)",
+  "author": "example-agent[bot]",
+  "labels": [],
+  "head_ref": "feature/task-1075",
+  "created_at": "2026-08-07T16:00:00Z",
+  "merged_at": "2026-08-08T04:07:11Z",
+  "first_review_at": "2026-08-07T20:42:00Z",
+  "additions": 49,
+  "deletions": 21,
+  "files": [
+   "src/fx/models.py",
+   "src/reports/models.py",
+   "src/reports/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1075"
+  ]
+ },
+ {
+  "number": 1076,
+  "title": "Add ledger logic (task 1076)",
+  "author": "dev08",
+  "labels": [],
+  "head_ref": "claude/task-1076",
+  "created_at": "2026-08-08T13:00:00Z",
+  "merged_at": "2026-08-09T02:19:14Z",
+  "first_review_at": "2026-08-08T18:36:11Z",
+  "additions": 100,
+  "deletions": 44,
+  "files": [
+   "src/fx/routes.py",
+   "src/reports/utils.py",
+   "src/api/utils.py",
+   "src/ledger/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1076"
+  ]
+ },
+ {
+  "number": 1077,
+  "title": "Add reports logic (task 1077)",
+  "author": "dev04",
+  "labels": [],
+  "head_ref": "fix/task-1077",
+  "created_at": "2026-08-09T17:00:00Z",
+  "merged_at": "2026-08-10T13:27:47Z",
+  "first_review_at": "2026-08-10T01:49:50Z",
+  "additions": 41,
+  "deletions": 18,
+  "files": [
+   "src/payments/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1077"
+  ]
+ },
+ {
+  "number": 1078,
+  "title": "Update api logic (task 1078)",
+  "author": "dev13",
+  "labels": [],
+  "head_ref": "feature/task-1078",
+  "created_at": "2026-08-09T13:00:00Z",
+  "merged_at": "2026-08-10T15:37:01Z",
+  "first_review_at": "2026-08-09T21:34:41Z",
+  "additions": 62,
+  "deletions": 28,
+  "files": [
+   "src/api/utils.py",
+   "src/auth/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1078"
+  ]
+ },
+ {
+  "number": 1079,
+  "title": "Add ledger logic (task 1079)",
+  "author": "dev07",
+  "labels": [],
+  "head_ref": "feature/task-1079",
+  "created_at": "2026-08-09T10:00:00Z",
+  "merged_at": "2026-08-10T13:09:36Z",
+  "first_review_at": "2026-08-09T16:59:27Z",
+  "additions": 114,
+  "deletions": 50,
+  "files": [
+   "src/cards/models.py",
+   "src/cards/service.py",
+   "src/reports/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1079"
+  ]
+ },
+ {
+  "number": 1080,
+  "title": "Add payments logic (task 1080)",
+  "author": "dev03",
+  "labels": [],
+  "head_ref": "codex/task-1080",
+  "created_at": "2026-08-10T17:00:00Z",
+  "merged_at": "2026-08-11T08:51:35Z",
+  "first_review_at": "2026-08-10T22:53:36Z",
+  "additions": 200,
+  "deletions": 86,
+  "files": [
+   "src/reports/validators.py",
+   "src/reports/models.py",
+   "src/auth/utils.py"
+  ],
+  "commit_messages": [
+   "Change for task 1080"
+  ]
+ },
+ {
+  "number": 1081,
+  "title": "Update kyc logic (task 1081)",
+  "author": "dev17",
+  "labels": [],
+  "head_ref": "fix/task-1081",
+  "created_at": "2026-08-11T16:00:00Z",
+  "merged_at": "2026-08-12T09:07:47Z",
+  "first_review_at": "2026-08-11T21:03:43Z",
+  "additions": 28,
+  "deletions": 13,
+  "files": [
+   "src/ledger/utils.py",
+   "src/api/service.py",
+   "src/fx/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1081"
+  ]
+ },
+ {
+  "number": 1082,
+  "title": "Add reports logic (task 1082)",
+  "author": "dev07",
+  "labels": [],
+  "head_ref": "chore/task-1082",
+  "created_at": "2026-08-11T16:00:00Z",
+  "merged_at": "2026-08-12T15:40:34Z",
+  "first_review_at": "2026-08-11T19:14:14Z",
+  "additions": 154,
+  "deletions": 66,
+  "files": [
+   "src/ledger/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1082"
+  ]
+ },
+ {
+  "number": 1083,
+  "title": "Add kyc logic (task 1083)",
+  "author": "dev18",
+  "labels": [],
+  "head_ref": "chore/task-1083",
+  "created_at": "2026-08-12T17:00:00Z",
+  "merged_at": "2026-08-13T13:09:02Z",
+  "first_review_at": "2026-08-12T22:47:58Z",
+  "additions": 235,
+  "deletions": 101,
+  "files": [
+   "src/reports/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1083"
+  ]
+ },
+ {
+  "number": 1084,
+  "title": "Add payments logic (task 1084)",
+  "author": "dev05",
+  "labels": [],
+  "head_ref": "chore/task-1084",
+  "created_at": "2026-08-12T13:00:00Z",
+  "merged_at": "2026-08-12T19:25:39Z",
+  "first_review_at": "2026-08-12T13:38:44Z",
+  "additions": 491,
+  "deletions": 211,
+  "files": [
+   "src/fx/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1084"
+  ]
+ },
+ {
+  "number": 1085,
+  "title": "Update ledger logic (task 1085)",
+  "author": "example-agent[bot]",
+  "labels": [],
+  "head_ref": "feature/task-1085",
+  "created_at": "2026-08-13T15:00:00Z",
+  "merged_at": "2026-08-15T15:35:06Z",
+  "first_review_at": "2026-08-14T09:14:49Z",
+  "additions": 77,
+  "deletions": 33,
+  "files": [
+   "src/reports/service.py",
+   "src/kyc/routes.py",
+   "src/auth/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1085"
+  ]
+ },
+ {
+  "number": 1086,
+  "title": "Add kyc logic (task 1086)",
+  "author": "dev06",
+  "labels": [],
+  "head_ref": "chore/task-1086",
+  "created_at": "2026-08-14T11:00:00Z",
+  "merged_at": "2026-08-15T00:57:35Z",
+  "first_review_at": "2026-08-14T13:53:35Z",
+  "additions": 112,
+  "deletions": 48,
+  "files": [
+   "src/kyc/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1086"
+  ]
+ },
+ {
+  "number": 1087,
+  "title": "Add reports logic (task 1087)",
+  "author": "dev01",
+  "labels": [],
+  "head_ref": "feature/task-1087",
+  "created_at": "2026-08-14T12:00:00Z",
+  "merged_at": "2026-08-15T20:09:06Z",
+  "first_review_at": "2026-08-14T15:02:13Z",
+  "additions": 63,
+  "deletions": 28,
+  "files": [
+   "src/ledger/validators.py",
+   "src/ledger/utils.py",
+   "src/kyc/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1087"
+  ]
+ },
+ {
+  "number": 1088,
+  "title": "Update api logic (task 1088)",
+  "author": "example-agent[bot]",
+  "labels": [],
+  "head_ref": "feature/task-1088",
+  "created_at": "2026-08-15T15:00:00Z",
+  "merged_at": "2026-08-16T03:16:57Z",
+  "first_review_at": "2026-08-15T23:49:52Z",
+  "additions": 221,
+  "deletions": 96,
+  "files": [
+   "src/reports/routes.py",
+   "src/reports/jobs.py",
+   "src/cards/validators.py",
+   "src/auth/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1088"
+  ]
+ },
+ {
+  "number": 1089,
+  "title": "Update auth logic (task 1089)",
+  "author": "dev14",
+  "labels": [],
+  "head_ref": "fix/task-1089",
+  "created_at": "2026-08-17T17:00:00Z",
+  "merged_at": "2026-08-18T07:47:33Z",
+  "first_review_at": "2026-08-17T22:20:29Z",
+  "additions": 155,
+  "deletions": 67,
+  "files": [
+   "src/ledger/routes.py",
+   "src/fx/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1089"
+  ]
+ },
+ {
+  "number": 1090,
+  "title": "Update ledger logic (task 1090)",
+  "author": "dev16",
+  "labels": [],
+  "head_ref": "claude/task-1090",
+  "created_at": "2026-08-17T12:00:00Z",
+  "merged_at": "2026-08-18T05:27:33Z",
+  "first_review_at": "2026-08-17T16:56:15Z",
+  "additions": 46,
+  "deletions": 21,
+  "files": [
+   "src/cards/routes.py",
+   "src/kyc/jobs.py",
+   "src/payments/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1090"
+  ]
+ },
+ {
+  "number": 1091,
+  "title": "Add api logic (task 1091)",
+  "author": "dev17",
+  "labels": [
+   "agent-authored"
+  ],
+  "head_ref": "feature/task-1091",
+  "created_at": "2026-08-17T16:00:00Z",
+  "merged_at": "2026-08-18T08:26:24Z",
+  "first_review_at": "2026-08-17T20:13:26Z",
+  "additions": 89,
+  "deletions": 39,
+  "files": [
+   "src/kyc/service.py",
+   "src/cards/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1091"
+  ]
+ },
+ {
+  "number": 1092,
+  "title": "Update kyc logic (task 1092)",
+  "author": "dev03",
+  "labels": [
+   "agent-authored"
+  ],
+  "head_ref": "fix/task-1092",
+  "created_at": "2026-08-18T09:00:00Z",
+  "merged_at": "2026-08-19T00:35:53Z",
+  "first_review_at": "2026-08-18T15:07:04Z",
+  "additions": 140,
+  "deletions": 60,
+  "files": [
+   "src/api/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1092"
+  ]
+ },
+ {
+  "number": 1093,
+  "title": "Update fx logic (task 1093)",
+  "author": "example-agent[bot]",
+  "labels": [],
+  "head_ref": "feature/task-1093",
+  "created_at": "2026-08-18T11:00:00Z",
+  "merged_at": "2026-08-19T06:15:54Z",
+  "first_review_at": "2026-08-18T17:09:54Z",
+  "additions": 56,
+  "deletions": 25,
+  "files": [
+   "src/payments/jobs.py",
+   "src/reports/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1093"
+  ]
+ },
+ {
+  "number": 1094,
+  "title": "Add auth logic (task 1094)",
+  "author": "dev17",
+  "labels": [],
+  "head_ref": "fix/task-1094",
+  "created_at": "2026-08-18T10:00:00Z",
+  "merged_at": "2026-08-19T05:56:29Z",
+  "first_review_at": "2026-08-18T16:22:15Z",
+  "additions": 42,
+  "deletions": 19,
+  "files": [
+   "src/fx/utils.py",
+   "src/payments/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1094"
+  ]
+ },
+ {
+  "number": 1095,
+  "title": "Add ledger logic (task 1095)",
+  "author": "example-agent[bot]",
+  "labels": [],
+  "head_ref": "feature/task-1095",
+  "created_at": "2026-08-19T14:00:00Z",
+  "merged_at": "2026-08-20T05:49:02Z",
+  "first_review_at": "2026-08-19T21:30:20Z",
+  "additions": 157,
+  "deletions": 68,
+  "files": [
+   "src/cards/routes.py",
+   "src/fx/service.py",
+   "src/kyc/jobs.py",
+   "src/reports/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1095"
+  ]
+ },
+ {
+  "number": 1096,
+  "title": "Update auth logic (task 1096)",
+  "author": "example-agent[bot]",
+  "labels": [],
+  "head_ref": "feature/task-1096",
+  "created_at": "2026-08-21T13:00:00Z",
+  "merged_at": "2026-08-22T02:58:26Z",
+  "first_review_at": "2026-08-21T19:52:34Z",
+  "additions": 419,
+  "deletions": 180,
+  "files": [
+   "src/ledger/utils.py",
+   "src/ledger/models.py",
+   "src/api/service.py",
+   "src/fx/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1096"
+  ]
+ },
+ {
+  "number": 1097,
+  "title": "Add kyc logic (task 1097)",
+  "author": "dev18",
+  "labels": [],
+  "head_ref": "chore/task-1097",
+  "created_at": "2026-08-21T14:00:00Z",
+  "merged_at": "2026-08-22T13:55:35Z",
+  "first_review_at": "2026-08-21T18:43:14Z",
+  "additions": 26,
+  "deletions": 12,
+  "files": [
+   "src/kyc/jobs.py",
+   "src/fx/validators.py",
+   "src/reports/utils.py"
+  ],
+  "commit_messages": [
+   "Change for task 1097"
+  ]
+ },
+ {
+  "number": 1098,
+  "title": "Add ledger logic (task 1098)",
+  "author": "dev12",
+  "labels": [],
+  "head_ref": "feature/task-1098",
+  "created_at": "2026-08-23T11:00:00Z",
+  "merged_at": "2026-08-24T00:01:02Z",
+  "first_review_at": "2026-08-23T14:04:14Z",
+  "additions": 194,
+  "deletions": 84,
+  "files": [
+   "src/api/models.py",
+   "src/kyc/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1098"
+  ]
+ },
+ {
+  "number": 1099,
+  "title": "Add payments logic (task 1099)",
+  "author": "dev11",
+  "labels": [],
+  "head_ref": "claude/task-1099",
+  "created_at": "2026-08-24T09:00:00Z",
+  "merged_at": "2026-08-25T06:57:54Z",
+  "first_review_at": "2026-08-24T11:53:47Z",
+  "additions": 125,
+  "deletions": 54,
+  "files": [
+   "src/auth/models.py",
+   "src/payments/jobs.py",
+   "src/ledger/utils.py"
+  ],
+  "commit_messages": [
+   "Change for task 1099"
+  ]
+ },
+ {
+  "number": 1100,
+  "title": "Add kyc logic (task 1100)",
+  "author": "dev11",
+  "labels": [],
+  "head_ref": "chore/task-1100",
+  "created_at": "2026-08-24T11:00:00Z",
+  "merged_at": "2026-08-25T07:54:37Z",
+  "first_review_at": "2026-08-24T15:30:58Z",
+  "additions": 41,
+  "deletions": 18,
+  "files": [
+   "src/kyc/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1100"
+  ]
+ },
+ {
+  "number": 1101,
+  "title": "Update fx logic (task 1101)",
+  "author": "dev15",
+  "labels": [],
+  "head_ref": "fix/task-1101",
+  "created_at": "2026-08-24T13:00:00Z",
+  "merged_at": "2026-08-25T15:47:27Z",
+  "first_review_at": "2026-08-25T00:08:07Z",
+  "additions": 109,
+  "deletions": 47,
+  "files": [
+   "src/payments/jobs.py",
+   "src/ledger/validators.py",
+   "src/cards/service.py",
+   "src/kyc/routes.py",
+   "src/fx/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1101",
+   "Refactor task 1101\n\nCo-Authored-By: Claude <noreply@example.com>"
+  ]
+ },
+ {
+  "number": 1102,
+  "title": "Add fx logic (task 1102)",
+  "author": "dev07",
+  "labels": [],
+  "head_ref": "chore/task-1102",
+  "created_at": "2026-08-25T09:00:00Z",
+  "merged_at": "2026-08-26T08:22:10Z",
+  "first_review_at": "2026-08-25T10:58:11Z",
+  "additions": 155,
+  "deletions": 67,
+  "files": [
+   "src/api/jobs.py",
+   "src/payments/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1102"
+  ]
+ },
+ {
+  "number": 1103,
+  "title": "Update auth logic (task 1103)",
+  "author": "dev06",
+  "labels": [],
+  "head_ref": "feature/task-1103",
+  "created_at": "2026-08-25T14:00:00Z",
+  "merged_at": "2026-08-26T07:00:40Z",
+  "first_review_at": "2026-08-25T18:21:42Z",
+  "additions": 58,
+  "deletions": 26,
+  "files": [
+   "src/payments/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1103"
+  ]
+ },
+ {
+  "number": 1104,
+  "title": "Update api logic (task 1104)",
+  "author": "dev08",
+  "labels": [
+   "agent-authored"
+  ],
+  "head_ref": "fix/task-1104",
+  "created_at": "2026-08-26T17:00:00Z",
+  "merged_at": "2026-08-27T06:54:15Z",
+  "first_review_at": "2026-08-26T20:03:35Z",
+  "additions": 317,
+  "deletions": 136,
+  "files": [
+   "src/fx/service.py",
+   "src/reports/service.py",
+   "src/fx/jobs.py",
+   "src/auth/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1104"
+  ]
+ },
+ {
+  "number": 1105,
+  "title": "Add fx logic (task 1105)",
+  "author": "dev01",
+  "labels": [
+   "agent-authored"
+  ],
+  "head_ref": "chore/task-1105",
+  "created_at": "2026-08-26T11:00:00Z",
+  "merged_at": "2026-08-26T23:59:10Z",
+  "first_review_at": "2026-08-26T18:41:47Z",
+  "additions": 263,
+  "deletions": 114,
+  "files": [
+   "src/reports/validators.py",
+   "src/kyc/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1105"
+  ]
+ },
+ {
+  "number": 1106,
+  "title": "Update kyc logic (task 1106)",
+  "author": "dev14",
+  "labels": [],
+  "head_ref": "chore/task-1106",
+  "created_at": "2026-08-28T16:00:00Z",
+  "merged_at": "2026-08-29T02:23:26Z",
+  "first_review_at": "2026-08-28T17:35:59Z",
+  "additions": 56,
+  "deletions": 25,
+  "files": [
+   "src/api/routes.py",
+   "src/reports/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1106"
+  ]
+ },
+ {
+  "number": 1107,
+  "title": "Update api logic (task 1107)",
+  "author": "dev02",
+  "labels": [],
+  "head_ref": "codex/task-1107",
+  "created_at": "2026-08-28T15:00:00Z",
+  "merged_at": "2026-08-29T05:36:03Z",
+  "first_review_at": "2026-08-28T20:48:53Z",
+  "additions": 47,
+  "deletions": 21,
+  "files": [
+   "src/auth/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1107"
+  ]
+ },
+ {
+  "number": 1108,
+  "title": "Add payments logic (task 1108)",
+  "author": "dev04",
+  "labels": [],
+  "head_ref": "fix/task-1108",
+  "created_at": "2026-08-29T10:00:00Z",
+  "merged_at": "2026-08-30T04:30:59Z",
+  "first_review_at": "2026-08-29T18:25:04Z",
+  "additions": 65,
+  "deletions": 29,
+  "files": [
+   "src/auth/routes.py",
+   "src/api/routes.py",
+   "src/reports/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1108"
+  ]
+ },
+ {
+  "number": 1109,
+  "title": "Update cards logic (task 1109)",
+  "author": "dev05",
+  "labels": [
+   "agent-authored"
+  ],
+  "head_ref": "feature/task-1109",
+  "created_at": "2026-08-29T11:00:00Z",
+  "merged_at": "2026-08-30T14:42:57Z",
+  "first_review_at": "2026-08-29T15:23:01Z",
+  "additions": 245,
+  "deletions": 106,
+  "files": [
+   "src/cards/jobs.py",
+   "src/ledger/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1109"
+  ]
+ },
+ {
+  "number": 1110,
+  "title": "Add reports logic (task 1110)",
+  "author": "example-agent[bot]",
+  "labels": [],
+  "head_ref": "fix/task-1110",
+  "created_at": "2026-08-30T13:00:00Z",
+  "merged_at": "2026-08-31T08:20:15Z",
+  "first_review_at": "2026-08-30T20:00:17Z",
+  "additions": 225,
+  "deletions": 97,
+  "files": [
+   "src/auth/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1110"
+  ]
+ },
+ {
+  "number": 1111,
+  "title": "Update cards logic (task 1111)",
+  "author": "dev13",
+  "labels": [],
+  "head_ref": "chore/task-1111",
+  "created_at": "2026-08-31T13:00:00Z",
+  "merged_at": "2026-09-01T14:46:08Z",
+  "first_review_at": "2026-08-31T21:25:39Z",
+  "additions": 28,
+  "deletions": 12,
+  "files": [
+   "src/cards/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1111"
+  ]
+ },
+ {
+  "number": 1112,
+  "title": "Update cards logic (task 1112)",
+  "author": "dev13",
+  "labels": [],
+  "head_ref": "fix/task-1112",
+  "created_at": "2026-08-31T14:00:00Z",
+  "merged_at": "2026-09-01T04:12:42Z",
+  "first_review_at": "2026-08-31T17:23:22Z",
+  "additions": 67,
+  "deletions": 30,
+  "files": [
+   "src/ledger/utils.py"
+  ],
+  "commit_messages": [
+   "Change for task 1112"
+  ]
+ },
+ {
+  "number": 1113,
+  "title": "Add kyc logic (task 1113)",
+  "author": "dev11",
+  "labels": [],
+  "head_ref": "feature/task-1113",
+  "created_at": "2026-09-01T12:00:00Z",
+  "merged_at": "2026-09-02T08:00:23Z",
+  "first_review_at": "2026-09-01T22:31:27Z",
+  "additions": 51,
+  "deletions": 22,
+  "files": [
+   "src/reports/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1113"
+  ]
+ },
+ {
+  "number": 1114,
+  "title": "Update payments logic (task 1114)",
+  "author": "dev13",
+  "labels": [],
+  "head_ref": "chore/task-1114",
+  "created_at": "2026-09-01T11:00:00Z",
+  "merged_at": "2026-09-01T22:42:58Z",
+  "first_review_at": "2026-09-01T17:45:41Z",
+  "additions": 93,
+  "deletions": 40,
+  "files": [
+   "src/api/service.py",
+   "src/ledger/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1114"
+  ]
+ },
+ {
+  "number": 1115,
+  "title": "Update cards logic (task 1115)",
+  "author": "dev07",
+  "labels": [],
+  "head_ref": "fix/task-1115",
+  "created_at": "2026-09-02T14:00:00Z",
+  "merged_at": "2026-09-03T00:22:57Z",
+  "first_review_at": "2026-09-02T19:28:12Z",
+  "additions": 54,
+  "deletions": 24,
+  "files": [
+   "src/api/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1115"
+  ]
+ },
+ {
+  "number": 1116,
+  "title": "Add api logic (task 1116)",
+  "author": "dev01",
+  "labels": [],
+  "head_ref": "chore/task-1116",
+  "created_at": "2026-09-03T17:00:00Z",
+  "merged_at": "2026-09-04T21:24:38Z",
+  "first_review_at": "2026-09-03T20:39:16Z",
+  "additions": 173,
+  "deletions": 75,
+  "files": [
+   "src/payments/models.py",
+   "src/auth/validators.py",
+   "src/cards/routes.py",
+   "src/api/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1116",
+   "Refactor task 1116\n\nCo-Authored-By: Claude <noreply@example.com>"
+  ]
+ },
+ {
+  "number": 1117,
+  "title": "Add payments logic (task 1117)",
+  "author": "dev02",
+  "labels": [],
+  "head_ref": "chore/task-1117",
+  "created_at": "2026-09-03T14:00:00Z",
+  "merged_at": "2026-09-04T09:10:01Z",
+  "first_review_at": "2026-09-03T18:06:50Z",
+  "additions": 165,
+  "deletions": 71,
+  "files": [
+   "src/kyc/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1117"
+  ]
+ },
+ {
+  "number": 1118,
+  "title": "Update ledger logic (task 1118)",
+  "author": "dev12",
+  "labels": [],
+  "head_ref": "feature/task-1118",
+  "created_at": "2026-09-03T17:00:00Z",
+  "merged_at": "2026-09-04T04:07:34Z",
+  "first_review_at": "2026-09-03T20:07:16Z",
+  "additions": 67,
+  "deletions": 30,
+  "files": [
+   "src/auth/jobs.py",
+   "src/reports/service.py",
+   "src/ledger/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1118"
+  ]
+ },
+ {
+  "number": 1119,
+  "title": "Update api logic (task 1119)",
+  "author": "dev07",
+  "labels": [],
+  "head_ref": "fix/task-1119",
+  "created_at": "2026-09-04T14:00:00Z",
+  "merged_at": "2026-09-05T14:24:07Z",
+  "first_review_at": "2026-09-04T19:38:46Z",
+  "additions": 42,
+  "deletions": 18,
+  "files": [
+   "src/payments/models.py",
+   "src/auth/validators.py",
+   "src/cards/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1119"
+  ]
+ },
+ {
+  "number": 1120,
+  "title": "Add kyc logic (task 1120)",
+  "author": "dev02",
+  "labels": [],
+  "head_ref": "chore/task-1120",
+  "created_at": "2026-09-04T16:00:00Z",
+  "merged_at": "2026-09-05T06:55:48Z",
+  "first_review_at": "2026-09-04T18:40:05Z",
+  "additions": 99,
+  "deletions": 43,
+  "files": [
+   "src/cards/utils.py",
+   "src/fx/service.py",
+   "src/reports/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1120"
+  ]
+ },
+ {
+  "number": 1121,
+  "title": "Update auth logic (task 1121)",
+  "author": "dev11",
+  "labels": [],
+  "head_ref": "feature/task-1121",
+  "created_at": "2026-09-06T14:00:00Z",
+  "merged_at": "2026-09-07T10:33:02Z",
+  "first_review_at": "2026-09-06T21:04:59Z",
+  "additions": 19,
+  "deletions": 9,
+  "files": [
+   "src/payments/utils.py",
+   "src/fx/models.py",
+   "src/api/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1121"
+  ]
+ },
+ {
+  "number": 1122,
+  "title": "Update reports logic (task 1122)",
+  "author": "dev02",
+  "labels": [],
+  "head_ref": "codex/task-1122",
+  "created_at": "2026-09-06T13:00:00Z",
+  "merged_at": "2026-09-07T04:40:16Z",
+  "first_review_at": "2026-09-06T19:55:12Z",
+  "additions": 301,
+  "deletions": 129,
+  "files": [
+   "src/fx/utils.py",
+   "src/reports/models.py",
+   "src/cards/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1122"
+  ]
+ },
+ {
+  "number": 1123,
+  "title": "Update kyc logic (task 1123)",
+  "author": "dev17",
+  "labels": [],
+  "head_ref": "feature/task-1123",
+  "created_at": "2026-09-07T17:00:00Z",
+  "merged_at": "2026-09-08T12:39:40Z",
+  "first_review_at": "2026-09-07T22:23:14Z",
+  "additions": 37,
+  "deletions": 16,
+  "files": [
+   "src/ledger/validators.py",
+   "src/kyc/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1123"
+  ]
+ },
+ {
+  "number": 1124,
+  "title": "Add api logic (task 1124)",
+  "author": "dev03",
+  "labels": [],
+  "head_ref": "chore/task-1124",
+  "created_at": "2026-09-07T11:00:00Z",
+  "merged_at": "2026-09-07T21:16:47Z",
+  "first_review_at": "2026-09-07T13:07:14Z",
+  "additions": 179,
+  "deletions": 78,
+  "files": [
+   "src/auth/utils.py",
+   "src/payments/models.py",
+   "src/payments/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1124"
+  ]
+ },
+ {
+  "number": 1125,
+  "title": "Update fx logic (task 1125)",
+  "author": "dev06",
+  "labels": [],
+  "head_ref": "copilot/task-1125",
+  "created_at": "2026-09-09T15:00:00Z",
+  "merged_at": "2026-09-11T10:43:15Z",
+  "first_review_at": "2026-09-10T00:31:35Z",
+  "additions": 100,
+  "deletions": 43,
+  "files": [
+   "src/cards/utils.py",
+   "src/cards/routes.py",
+   "src/fx/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1125"
+  ]
+ },
+ {
+  "number": 1126,
+  "title": "Add auth logic (task 1126)",
+  "author": "dev08",
+  "labels": [],
+  "head_ref": "chore/task-1126",
+  "created_at": "2026-09-09T16:00:00Z",
+  "merged_at": "2026-09-09T23:31:08Z",
+  "first_review_at": "2026-09-09T19:04:57Z",
+  "additions": 46,
+  "deletions": 21,
+  "files": [
+   "src/api/routes.py",
+   "src/reports/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1126"
+  ]
+ },
+ {
+  "number": 1127,
+  "title": "Add payments logic (task 1127)",
+  "author": "dev05",
+  "labels": [],
+  "head_ref": "fix/task-1127",
+  "created_at": "2026-09-09T13:00:00Z",
+  "merged_at": "2026-09-10T15:04:08Z",
+  "first_review_at": "2026-09-10T00:20:30Z",
+  "additions": 114,
+  "deletions": 50,
+  "files": [
+   "src/payments/routes.py",
+   "src/fx/utils.py",
+   "src/payments/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1127"
+  ]
+ },
+ {
+  "number": 1128,
+  "title": "Update reports logic (task 1128)",
+  "author": "dev08",
+  "labels": [],
+  "head_ref": "fix/task-1128",
+  "created_at": "2026-09-10T10:00:00Z",
+  "merged_at": "2026-09-11T01:34:42Z",
+  "first_review_at": "2026-09-10T13:10:39Z",
+  "additions": 17,
+  "deletions": 8,
+  "files": [
+   "src/api/utils.py",
+   "src/api/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1128"
+  ]
+ },
+ {
+  "number": 1129,
+  "title": "Update reports logic (task 1129)",
+  "author": "dev06",
+  "labels": [
+   "agent-authored"
+  ],
+  "head_ref": "fix/task-1129",
+  "created_at": "2026-09-10T11:00:00Z",
+  "merged_at": "2026-09-11T13:43:26Z",
+  "first_review_at": "2026-09-11T00:47:08Z",
+  "additions": 475,
+  "deletions": 204,
+  "files": [
+   "src/reports/routes.py",
+   "src/reports/validators.py",
+   "src/api/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1129"
+  ]
+ },
+ {
+  "number": 1130,
+  "title": "Update api logic (task 1130)",
+  "author": "dev07",
+  "labels": [],
+  "head_ref": "feature/task-1130",
+  "created_at": "2026-09-11T12:00:00Z",
+  "merged_at": "2026-09-12T01:24:39Z",
+  "first_review_at": "2026-09-11T16:31:34Z",
+  "additions": 329,
+  "deletions": 141,
+  "files": [
+   "src/auth/routes.py",
+   "src/kyc/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1130"
+  ]
+ },
+ {
+  "number": 1131,
+  "title": "Add payments logic (task 1131)",
+  "author": "dev06",
+  "labels": [],
+  "head_ref": "chore/task-1131",
+  "created_at": "2026-09-12T13:00:00Z",
+  "merged_at": "2026-09-12T22:52:20Z",
+  "first_review_at": "2026-09-12T14:21:39Z",
+  "additions": 39,
+  "deletions": 17,
+  "files": [
+   "src/auth/jobs.py",
+   "src/api/utils.py",
+   "src/reports/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1131"
+  ]
+ },
+ {
+  "number": 1132,
+  "title": "Add api logic (task 1132)",
+  "author": "dev05",
+  "labels": [],
+  "head_ref": "codex/task-1132",
+  "created_at": "2026-09-12T15:00:00Z",
+  "merged_at": "2026-09-13T15:40:38Z",
+  "first_review_at": "2026-09-13T00:50:02Z",
+  "additions": 203,
+  "deletions": 88,
+  "files": [
+   "src/auth/utils.py",
+   "src/ledger/utils.py",
+   "src/auth/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1132"
+  ]
+ },
+ {
+  "number": 1133,
+  "title": "Update auth logic (task 1133)",
+  "author": "dev16",
+  "labels": [],
+  "head_ref": "chore/task-1133",
+  "created_at": "2026-09-12T11:00:00Z",
+  "merged_at": "2026-09-13T04:20:12Z",
+  "first_review_at": "2026-09-12T14:38:54Z",
+  "additions": 130,
+  "deletions": 57,
+  "files": [
+   "src/auth/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1133"
+  ]
+ },
+ {
+  "number": 1134,
+  "title": "Add auth logic (task 1134)",
+  "author": "dev18",
+  "labels": [],
+  "head_ref": "feature/task-1134",
+  "created_at": "2026-09-14T14:00:00Z",
+  "merged_at": "2026-09-15T04:54:22Z",
+  "first_review_at": "2026-09-14T17:32:19Z",
+  "additions": 98,
+  "deletions": 42,
+  "files": [
+   "src/api/service.py",
+   "src/kyc/utils.py",
+   "src/payments/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1134"
+  ]
+ },
+ {
+  "number": 1135,
+  "title": "Update fx logic (task 1135)",
+  "author": "dev02",
+  "labels": [],
+  "head_ref": "feature/task-1135",
+  "created_at": "2026-09-14T09:00:00Z",
+  "merged_at": "2026-09-15T04:19:31Z",
+  "first_review_at": "2026-09-14T15:42:57Z",
+  "additions": 85,
+  "deletions": 37,
+  "files": [
+   "src/auth/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1135"
+  ]
+ },
+ {
+  "number": 1136,
+  "title": "Add reports logic (task 1136)",
+  "author": "dev18",
+  "labels": [],
+  "head_ref": "chore/task-1136",
+  "created_at": "2026-09-14T17:00:00Z",
+  "merged_at": "2026-09-16T07:26:05Z",
+  "first_review_at": "2026-09-14T23:35:37Z",
+  "additions": 104,
+  "deletions": 45,
+  "files": [
+   "src/auth/utils.py"
+  ],
+  "commit_messages": [
+   "Change for task 1136",
+   "Refactor task 1136\n\nCo-Authored-By: Claude <noreply@example.com>"
+  ]
+ },
+ {
+  "number": 1137,
+  "title": "Update cards logic (task 1137)",
+  "author": "example-agent[bot]",
+  "labels": [],
+  "head_ref": "chore/task-1137",
+  "created_at": "2026-09-15T10:00:00Z",
+  "merged_at": "2026-09-15T19:36:53Z",
+  "first_review_at": "2026-09-15T16:51:07Z",
+  "additions": 96,
+  "deletions": 42,
+  "files": [
+   "src/reports/routes.py",
+   "src/cards/service.py",
+   "src/fx/jobs.py",
+   "src/payments/jobs.py",
+   "src/auth/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1137"
+  ]
+ },
+ {
+  "number": 1138,
+  "title": "Update ledger logic (task 1138)",
+  "author": "dev05",
+  "labels": [],
+  "head_ref": "feature/task-1138",
+  "created_at": "2026-09-16T12:00:00Z",
+  "merged_at": "2026-09-17T19:57:22Z",
+  "first_review_at": "2026-09-16T14:00:03Z",
+  "additions": 143,
+  "deletions": 62,
+  "files": [
+   "src/fx/models.py",
+   "src/fx/routes.py",
+   "src/ledger/utils.py"
+  ],
+  "commit_messages": [
+   "Change for task 1138"
+  ]
+ },
+ {
+  "number": 1139,
+  "title": "Update payments logic (task 1139)",
+  "author": "dev09",
+  "labels": [],
+  "head_ref": "fix/task-1139",
+  "created_at": "2026-09-16T17:00:00Z",
+  "merged_at": "2026-09-17T03:59:10Z",
+  "first_review_at": "2026-09-16T21:23:00Z",
+  "additions": 673,
+  "deletions": 289,
+  "files": [
+   "src/reports/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1139"
+  ]
+ },
+ {
+  "number": 1140,
+  "title": "Update ledger logic (task 1140)",
+  "author": "dev05",
+  "labels": [],
+  "head_ref": "feature/task-1140",
+  "created_at": "2026-09-16T13:00:00Z",
+  "merged_at": "2026-09-17T03:45:01Z",
+  "first_review_at": "2026-09-16T17:21:43Z",
+  "additions": 98,
+  "deletions": 43,
+  "files": [
+   "src/reports/utils.py",
+   "src/api/service.py",
+   "src/reports/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1140"
+  ]
+ },
+ {
+  "number": 1141,
+  "title": "Update kyc logic (task 1141)",
+  "author": "dev03",
+  "labels": [],
+  "head_ref": "chore/task-1141",
+  "created_at": "2026-09-19T14:00:00Z",
+  "merged_at": "2026-09-20T10:38:23Z",
+  "first_review_at": "2026-09-19T18:51:32Z",
+  "additions": 77,
+  "deletions": 34,
+  "files": [
+   "src/api/service.py",
+   "src/fx/service.py",
+   "src/fx/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1141"
+  ]
+ },
+ {
+  "number": 1142,
+  "title": "Update payments logic (task 1142)",
+  "author": "dev10",
+  "labels": [],
+  "head_ref": "feature/task-1142",
+  "created_at": "2026-09-20T09:00:00Z",
+  "merged_at": "2026-09-20T22:29:07Z",
+  "first_review_at": "2026-09-20T10:38:50Z",
+  "additions": 81,
+  "deletions": 35,
+  "files": [
+   "src/ledger/service.py",
+   "src/api/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1142"
+  ]
+ },
+ {
+  "number": 1143,
+  "title": "Update api logic (task 1143)",
+  "author": "dev06",
+  "labels": [],
+  "head_ref": "fix/task-1143",
+  "created_at": "2026-09-21T10:00:00Z",
+  "merged_at": "2026-09-22T13:07:30Z",
+  "first_review_at": "2026-09-21T13:44:37Z",
+  "additions": 144,
+  "deletions": 63,
+  "files": [
+   "src/api/jobs.py",
+   "src/reports/models.py",
+   "src/auth/models.py",
+   "src/payments/validators.py",
+   "src/fx/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1143",
+   "Refactor task 1143\n\nCo-Authored-By: Claude <noreply@example.com>"
+  ]
+ },
+ {
+  "number": 1144,
+  "title": "Add reports logic (task 1144)",
+  "author": "dev16",
+  "labels": [],
+  "head_ref": "copilot/task-1144",
+  "created_at": "2026-09-21T17:00:00Z",
+  "merged_at": "2026-09-22T15:45:41Z",
+  "first_review_at": "2026-09-21T22:28:52Z",
+  "additions": 88,
+  "deletions": 38,
+  "files": [
+   "src/cards/routes.py",
+   "src/cards/validators.py",
+   "src/kyc/jobs.py",
+   "src/api/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1144"
+  ]
+ },
+ {
+  "number": 1145,
+  "title": "Update auth logic (task 1145)",
+  "author": "dev18",
+  "labels": [],
+  "head_ref": "feature/task-1145",
+  "created_at": "2026-09-21T12:00:00Z",
+  "merged_at": "2026-09-23T03:03:42Z",
+  "first_review_at": "2026-09-21T16:49:57Z",
+  "additions": 53,
+  "deletions": 24,
+  "files": [
+   "src/fx/service.py",
+   "src/fx/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1145"
+  ]
+ },
+ {
+  "number": 1146,
+  "title": "Update kyc logic (task 1146)",
+  "author": "dev10",
+  "labels": [],
+  "head_ref": "fix/task-1146",
+  "created_at": "2026-09-22T10:00:00Z",
+  "merged_at": "2026-09-23T18:19:01Z",
+  "first_review_at": "2026-09-22T22:39:29Z",
+  "additions": 97,
+  "deletions": 42,
+  "files": [
+   "src/payments/jobs.py",
+   "src/payments/validators.py",
+   "src/api/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1146",
+   "Refactor task 1146\n\nCo-Authored-By: Claude <noreply@example.com>"
+  ]
+ },
+ {
+  "number": 1147,
+  "title": "Add kyc logic (task 1147)",
+  "author": "dev13",
+  "labels": [],
+  "head_ref": "claude/task-1147",
+  "created_at": "2026-09-24T12:00:00Z",
+  "merged_at": "2026-09-25T03:07:15Z",
+  "first_review_at": "2026-09-24T14:35:43Z",
+  "additions": 175,
+  "deletions": 75,
+  "files": [
+   "src/api/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1147"
+  ]
+ },
+ {
+  "number": 1148,
+  "title": "Update cards logic (task 1148)",
+  "author": "dev08",
+  "labels": [],
+  "head_ref": "fix/task-1148",
+  "created_at": "2026-09-24T16:00:00Z",
+  "merged_at": "2026-09-25T02:53:34Z",
+  "first_review_at": "2026-09-24T19:33:04Z",
+  "additions": 86,
+  "deletions": 37,
+  "files": [
+   "src/auth/utils.py",
+   "src/auth/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1148"
+  ]
+ },
+ {
+  "number": 1149,
+  "title": "Update reports logic (task 1149)",
+  "author": "dev12",
+  "labels": [],
+  "head_ref": "codex/task-1149",
+  "created_at": "2026-09-25T10:00:00Z",
+  "merged_at": "2026-09-26T05:39:32Z",
+  "first_review_at": "2026-09-25T16:35:52Z",
+  "additions": 104,
+  "deletions": 45,
+  "files": [
+   "src/kyc/jobs.py",
+   "src/auth/jobs.py",
+   "src/api/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1149"
+  ]
+ },
+ {
+  "number": 1150,
+  "title": "Update payments logic (task 1150)",
+  "author": "dev05",
+  "labels": [],
+  "head_ref": "fix/task-1150",
+  "created_at": "2026-09-25T12:00:00Z",
+  "merged_at": "2026-09-26T03:58:02Z",
+  "first_review_at": "2026-09-25T18:02:03Z",
+  "additions": 70,
+  "deletions": 30,
+  "files": [
+   "src/ledger/jobs.py",
+   "src/auth/jobs.py",
+   "src/ledger/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1150"
+  ]
+ },
+ {
+  "number": 1151,
+  "title": "Update kyc logic (task 1151)",
+  "author": "dev14",
+  "labels": [],
+  "head_ref": "feature/task-1151",
+  "created_at": "2026-09-25T17:00:00Z",
+  "merged_at": "2026-09-26T08:35:13Z",
+  "first_review_at": "2026-09-25T22:22:30Z",
+  "additions": 56,
+  "deletions": 25,
+  "files": [
+   "src/payments/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1151"
+  ]
+ },
+ {
+  "number": 1152,
+  "title": "Update payments logic (task 1152)",
+  "author": "dev15",
+  "labels": [],
+  "head_ref": "feature/task-1152",
+  "created_at": "2026-09-26T17:00:00Z",
+  "merged_at": "2026-09-27T05:21:27Z",
+  "first_review_at": "2026-09-26T19:21:41Z",
+  "additions": 49,
+  "deletions": 21,
+  "files": [
+   "src/auth/routes.py",
+   "src/reports/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1152"
+  ]
+ },
+ {
+  "number": 1153,
+  "title": "Add reports logic (task 1153)",
+  "author": "dev02",
+  "labels": [
+   "agent-authored"
+  ],
+  "head_ref": "fix/task-1153",
+  "created_at": "2026-09-26T17:00:00Z",
+  "merged_at": "2026-09-27T11:22:29Z",
+  "first_review_at": "2026-09-26T21:46:05Z",
+  "additions": 61,
+  "deletions": 27,
+  "files": [
+   "src/auth/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1153"
+  ]
+ },
+ {
+  "number": 1154,
+  "title": "Add ledger logic (task 1154)",
+  "author": "dev09",
+  "labels": [],
+  "head_ref": "feature/task-1154",
+  "created_at": "2026-09-26T10:00:00Z",
+  "merged_at": "2026-09-27T17:26:34Z",
+  "first_review_at": "2026-09-26T13:14:05Z",
+  "additions": 98,
+  "deletions": 42,
+  "files": [
+   "src/ledger/service.py",
+   "src/kyc/validators.py",
+   "src/api/service.py"
+  ],
+  "commit_messages": [
+   "Change for task 1154"
+  ]
+ },
+ {
+  "number": 1155,
+  "title": "Update kyc logic (task 1155)",
+  "author": "dev01",
+  "labels": [],
+  "head_ref": "chore/task-1155",
+  "created_at": "2026-09-28T13:00:00Z",
+  "merged_at": "2026-09-29T06:35:24Z",
+  "first_review_at": "2026-09-28T16:26:51Z",
+  "additions": 459,
+  "deletions": 198,
+  "files": [
+   "src/api/routes.py",
+   "src/ledger/models.py",
+   "src/reports/models.py"
+  ],
+  "commit_messages": [
+   "Change for task 1155",
+   "Refactor task 1155\n\nCo-Authored-By: Claude <noreply@example.com>"
+  ]
+ },
+ {
+  "number": 1156,
+  "title": "Update api logic (task 1156)",
+  "author": "dev15",
+  "labels": [],
+  "head_ref": "chore/task-1156",
+  "created_at": "2026-09-28T17:00:00Z",
+  "merged_at": "2026-09-29T02:24:16Z",
+  "first_review_at": "2026-09-28T19:32:05Z",
+  "additions": 325,
+  "deletions": 140,
+  "files": [
+   "src/payments/jobs.py",
+   "src/api/jobs.py",
+   "src/api/utils.py"
+  ],
+  "commit_messages": [
+   "Change for task 1156"
+  ]
+ },
+ {
+  "number": 1157,
+  "title": "Add api logic (task 1157)",
+  "author": "example-agent[bot]",
+  "labels": [],
+  "head_ref": "feature/task-1157",
+  "created_at": "2026-09-29T13:00:00Z",
+  "merged_at": "2026-09-30T11:00:35Z",
+  "first_review_at": "2026-09-29T22:50:30Z",
+  "additions": 105,
+  "deletions": 45,
+  "files": [
+   "src/ledger/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1157"
+  ]
+ },
+ {
+  "number": 1158,
+  "title": "Update fx logic (task 1158)",
+  "author": "dev18",
+  "labels": [],
+  "head_ref": "fix/task-1158",
+  "created_at": "2026-09-29T16:00:00Z",
+  "merged_at": "2026-09-30T00:29:24Z",
+  "first_review_at": "2026-09-29T19:33:03Z",
+  "additions": 93,
+  "deletions": 40,
+  "files": [
+   "src/kyc/routes.py"
+  ],
+  "commit_messages": [
+   "Change for task 1158"
+  ]
+ },
+ {
+  "number": 1159,
+  "title": "Update ledger logic (task 1159)",
+  "author": "example-agent[bot]",
+  "labels": [],
+  "head_ref": "chore/task-1159",
+  "created_at": "2026-09-29T16:00:00Z",
+  "merged_at": "2026-09-30T04:16:18Z",
+  "first_review_at": "2026-09-30T00:17:34Z",
+  "additions": 113,
+  "deletions": 49,
+  "files": [
+   "src/ledger/validators.py",
+   "src/ledger/jobs.py"
+  ],
+  "commit_messages": [
+   "Change for task 1159"
+  ]
+ },
+ {
+  "number": 1160,
+  "title": "Update kyc logic (task 1160)",
+  "author": "dev05",
+  "labels": [],
+  "head_ref": "fix/task-1160",
+  "created_at": "2026-09-30T11:00:00Z",
+  "merged_at": "2026-10-01T09:43:04Z",
+  "first_review_at": "2026-09-30T14:23:42Z",
+  "additions": 263,
+  "deletions": 114,
+  "files": [
+   "src/auth/routes.py",
+   "src/fx/jobs.py",
+   "src/cards/utils.py"
+  ],
+  "commit_messages": [
+   "Change for task 1160"
+  ]
+ },
+ {
+  "number": 1161,
+  "title": "Update auth logic (task 1161)",
+  "author": "dev06",
+  "labels": [],
+  "head_ref": "chore/task-1161",
+  "created_at": "2026-10-01T13:00:00Z",
+  "merged_at": "2026-10-02T02:49:11Z",
+  "first_review_at": "2026-10-01T15:16:36Z",
+  "additions": 112,
+  "deletions": 48,
+  "files": [
+   "src/auth/utils.py",
+   "src/cards/jobs.py",
+   "src/reports/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1161"
+  ]
+ },
+ {
+  "number": 1162,
+  "title": "Add fx logic (task 1162)",
+  "author": "dev15",
+  "labels": [],
+  "head_ref": "fix/task-1162",
+  "created_at": "2026-10-01T17:00:00Z",
+  "merged_at": "2026-10-02T14:08:56Z",
+  "first_review_at": "2026-10-01T22:47:25Z",
+  "additions": 51,
+  "deletions": 23,
+  "files": [
+   "src/kyc/service.py",
+   "src/ledger/validators.py"
+  ],
+  "commit_messages": [
+   "Change for task 1162"
+  ]
+ },
+ {
+  "number": 1163,
+  "title": "Add payments logic (task 1163)",
+  "author": "dev08",
+  "labels": [],
+  "head_ref": "copilot/task-1163",
+  "created_at": "2026-10-01T11:00:00Z",
+  "merged_at": "2026-10-02T09:29:07Z",
+  "first_review_at": "2026-10-01T23:34:15Z",
+  "additions": 65,
+  "deletions": 28,
+  "files": [
+   "src/ledger/models.py",
+   "src/cards/utils.py",
+   "src/kyc/utils.py"
+  ],
+  "commit_messages": [
+   "Change for task 1163"
+  ]
+ },
+ {
+  "number": 1164,
+  "title": "Fix regression from #1008",
+  "author": "dev17",
+  "labels": [
+   "bug"
+  ],
+  "head_ref": "fix/regression-1008",
+  "created_at": "2026-07-03T06:38:51Z",
+  "merged_at": "2026-07-03T10:22:52Z",
+  "first_review_at": "2026-07-03T08:32:00Z",
+  "additions": 24,
+  "deletions": 18,
+  "files": [
+   "src/api/utils.py"
+  ],
+  "commit_messages": [
+   "Fix regression from #1008"
+  ]
+ },
+ {
+  "number": 1165,
+  "title": "Fix regression from #1015",
+  "author": "dev04",
+  "labels": [
+   "bug"
+  ],
+  "head_ref": "fix/regression-1015",
+  "created_at": "2026-07-12T00:56:22Z",
+  "merged_at": "2026-07-12T07:57:25Z",
+  "first_review_at": "2026-07-12T01:37:43Z",
+  "additions": 23,
+  "deletions": 23,
+  "files": [
+   "src/cards/models.py"
+  ],
+  "commit_messages": [
+   "Fix regression from #1015"
+  ]
+ },
+ {
+  "number": 1166,
+  "title": "Fix regression from #1022",
+  "author": "dev10",
+  "labels": [
+   "bug"
+  ],
+  "head_ref": "fix/regression-1022",
+  "created_at": "2026-07-12T12:21:31Z",
+  "merged_at": "2026-07-12T16:29:14Z",
+  "first_review_at": "2026-07-12T13:12:03Z",
+  "additions": 18,
+  "deletions": 6,
+  "files": [
+   "src/api/service.py"
+  ],
+  "commit_messages": [
+   "Fix regression from #1022"
+  ]
+ },
+ {
+  "number": 1167,
+  "title": "Fix regression from #1024",
+  "author": "dev03",
+  "labels": [
+   "bug"
+  ],
+  "head_ref": "fix/regression-1024",
+  "created_at": "2026-07-14T23:24:22Z",
+  "merged_at": "2026-07-15T05:48:22Z",
+  "first_review_at": "2026-07-15T02:21:14Z",
+  "additions": 9,
+  "deletions": 22,
+  "files": [
+   "src/payments/routes.py"
+  ],
+  "commit_messages": [
+   "Fix regression from #1024"
+  ]
+ },
+ {
+  "number": 1168,
+  "title": "Fix regression from #1026",
+  "author": "dev07",
+  "labels": [
+   "bug"
+  ],
+  "head_ref": "fix/regression-1026",
+  "created_at": "2026-07-16T05:35:34Z",
+  "merged_at": "2026-07-16T14:53:44Z",
+  "first_review_at": "2026-07-16T07:27:42Z",
+  "additions": 30,
+  "deletions": 27,
+  "files": [
+   "src/cards/routes.py"
+  ],
+  "commit_messages": [
+   "Fix regression from #1026"
+  ]
+ },
+ {
+  "number": 1169,
+  "title": "Fix regression from #1027",
+  "author": "dev14",
+  "labels": [
+   "bug"
+  ],
+  "head_ref": "fix/regression-1027",
+  "created_at": "2026-07-20T10:22:00Z",
+  "merged_at": "2026-07-20T23:52:17Z",
+  "first_review_at": "2026-07-20T13:07:39Z",
+  "additions": 41,
+  "deletions": 21,
+  "files": [
+   "src/payments/utils.py"
+  ],
+  "commit_messages": [
+   "Fix regression from #1027"
+  ]
+ },
+ {
+  "number": 1170,
+  "title": "Fix regression from #1036",
+  "author": "dev01",
+  "labels": [
+   "bug"
+  ],
+  "head_ref": "fix/regression-1036",
+  "created_at": "2026-07-27T08:14:39Z",
+  "merged_at": "2026-07-27T21:07:23Z",
+  "first_review_at": "2026-07-27T09:10:59Z",
+  "additions": 52,
+  "deletions": 25,
+  "files": [
+   "src/fx/routes.py"
+  ],
+  "commit_messages": [
+   "Fix regression from #1036"
+  ]
+ },
+ {
+  "number": 1171,
+  "title": "Fix regression from #1057",
+  "author": "dev09",
+  "labels": [
+   "bug"
+  ],
+  "head_ref": "fix/regression-1057",
+  "created_at": "2026-08-05T13:57:34Z",
+  "merged_at": "2026-08-06T07:46:16Z",
+  "first_review_at": "2026-08-05T15:35:40Z",
+  "additions": 7,
+  "deletions": 16,
+  "files": [
+   "src/kyc/jobs.py"
+  ],
+  "commit_messages": [
+   "Fix regression from #1057"
+  ]
+ },
+ {
+  "number": 1172,
+  "title": "Fix regression from #1065",
+  "author": "dev09",
+  "labels": [
+   "bug"
+  ],
+  "head_ref": "fix/regression-1065",
+  "created_at": "2026-08-09T09:08:05Z",
+  "merged_at": "2026-08-09T23:51:17Z",
+  "first_review_at": "2026-08-09T10:26:07Z",
+  "additions": 52,
+  "deletions": 4,
+  "files": [
+   "src/reports/jobs.py"
+  ],
+  "commit_messages": [
+   "Fix regression from #1065"
+  ]
+ },
+ {
+  "number": 1173,
+  "title": "Fix regression from #1084",
+  "author": "dev05",
+  "labels": [
+   "bug"
+  ],
+  "head_ref": "fix/regression-1084",
+  "created_at": "2026-08-22T19:25:39Z",
+  "merged_at": "2026-08-23T04:35:55Z",
+  "first_review_at": "2026-08-22T20:51:24Z",
+  "additions": 51,
+  "deletions": 11,
+  "files": [
+   "src/fx/jobs.py"
+  ],
+  "commit_messages": [
+   "Fix regression from #1084"
+  ]
+ },
+ {
+  "number": 1174,
+  "title": "Fix regression from #1085",
+  "author": "dev06",
+  "labels": [
+   "bug"
+  ],
+  "head_ref": "fix/regression-1085",
+  "created_at": "2026-08-18T15:35:06Z",
+  "merged_at": "2026-08-19T03:19:04Z",
+  "first_review_at": "2026-08-18T16:46:00Z",
+  "additions": 35,
+  "deletions": 9,
+  "files": [
+   "src/reports/service.py"
+  ],
+  "commit_messages": [
+   "Fix regression from #1085"
+  ]
+ },
+ {
+  "number": 1175,
+  "title": "Fix regression from #1090",
+  "author": "dev01",
+  "labels": [
+   "bug"
+  ],
+  "head_ref": "fix/regression-1090",
+  "created_at": "2026-08-19T05:27:33Z",
+  "merged_at": "2026-08-19T16:02:13Z",
+  "first_review_at": "2026-08-19T07:45:10Z",
+  "additions": 15,
+  "deletions": 11,
+  "files": [
+   "src/cards/routes.py"
+  ],
+  "commit_messages": [
+   "Fix regression from #1090"
+  ]
+ },
+ {
+  "number": 1176,
+  "title": "Fix regression from #1108",
+  "author": "dev13",
+  "labels": [
+   "bug"
+  ],
+  "head_ref": "fix/regression-1108",
+  "created_at": "2026-08-31T04:30:59Z",
+  "merged_at": "2026-08-31T10:03:36Z",
+  "first_review_at": "2026-08-31T05:32:48Z",
+  "additions": 30,
+  "deletions": 6,
+  "files": [
+   "src/auth/routes.py"
+  ],
+  "commit_messages": [
+   "Fix regression from #1108"
+  ]
+ },
+ {
+  "number": 1177,
+  "title": "Fix regression from #1109",
+  "author": "dev15",
+  "labels": [
+   "bug"
+  ],
+  "head_ref": "fix/regression-1109",
+  "created_at": "2026-09-02T14:42:57Z",
+  "merged_at": "2026-09-02T19:09:59Z",
+  "first_review_at": "2026-09-02T17:24:29Z",
+  "additions": 52,
+  "deletions": 28,
+  "files": [
+   "src/cards/jobs.py"
+  ],
+  "commit_messages": [
+   "Fix regression from #1109"
+  ]
+ },
+ {
+  "number": 1178,
+  "title": "Fix regression from #1110",
+  "author": "dev02",
+  "labels": [
+   "bug"
+  ],
+  "head_ref": "fix/regression-1110",
+  "created_at": "2026-09-06T08:20:15Z",
+  "merged_at": "2026-09-06T23:41:16Z",
+  "first_review_at": "2026-09-06T08:59:40Z",
+  "additions": 43,
+  "deletions": 15,
+  "files": [
+   "src/auth/models.py"
+  ],
+  "commit_messages": [
+   "Fix regression from #1110"
+  ]
+ },
+ {
+  "number": 1179,
+  "title": "Fix regression from #1117",
+  "author": "dev18",
+  "labels": [
+   "bug"
+  ],
+  "head_ref": "fix/regression-1117",
+  "created_at": "2026-09-12T09:10:01Z",
+  "merged_at": "2026-09-12T17:17:30Z",
+  "first_review_at": "2026-09-12T09:44:13Z",
+  "additions": 56,
+  "deletions": 21,
+  "files": [
+   "src/kyc/service.py"
+  ],
+  "commit_messages": [
+   "Fix regression from #1117"
+  ]
+ },
+ {
+  "number": 1180,
+  "title": "Fix regression from #1128",
+  "author": "dev06",
+  "labels": [
+   "bug"
+  ],
+  "head_ref": "fix/regression-1128",
+  "created_at": "2026-09-13T01:34:42Z",
+  "merged_at": "2026-09-13T04:54:27Z",
+  "first_review_at": "2026-09-13T03:29:05Z",
+  "additions": 26,
+  "deletions": 23,
+  "files": [
+   "src/api/utils.py"
+  ],
+  "commit_messages": [
+   "Fix regression from #1128"
+  ]
+ },
+ {
+  "number": 1181,
+  "title": "Fix regression from #1137",
+  "author": "dev04",
+  "labels": [
+   "bug"
+  ],
+  "head_ref": "fix/regression-1137",
+  "created_at": "2026-09-21T19:36:53Z",
+  "merged_at": "2026-09-22T00:46:45Z",
+  "first_review_at": "2026-09-21T21:41:53Z",
+  "additions": 38,
+  "deletions": 20,
+  "files": [
+   "src/reports/routes.py"
+  ],
+  "commit_messages": [
+   "Fix regression from #1137"
+  ]
+ },
+ {
+  "number": 1182,
+  "title": "Fix regression from #1149",
+  "author": "dev17",
+  "labels": [
+   "bug"
+  ],
+  "head_ref": "fix/regression-1149",
+  "created_at": "2026-10-02T05:39:32Z",
+  "merged_at": "2026-10-03T00:26:23Z",
+  "first_review_at": "2026-10-02T08:09:17Z",
+  "additions": 21,
+  "deletions": 23,
+  "files": [
+   "src/kyc/jobs.py"
+  ],
+  "commit_messages": [
+   "Fix regression from #1149"
+  ]
+ }
+]

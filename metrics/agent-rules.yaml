@@ -1,0 +1,27 @@
+# Purpose: rules that decide whether a pull request counts as agent-authored, and how
+#          rework is detected. Edit to match your own conventions.
+# Book: Coding Agents in the Enterprise, Chapter 10
+# Licence: MIT (see LICENSE)
+#
+# A PR is agent-authored if ANY rule matches. Agree the rules with teams first,
+# and ask them to label or trailer agent work consistently; no rule is perfect.
+
+agent_labels:
+  - agent-authored
+agent_branch_prefixes:
+  - claude/
+  - copilot/
+  - codex/
+  - cursor/
+agent_authors:
+  - example-agent[bot]        # replace with your cloud agent's bot login(s)
+# Regular expression matched, case-insensitively, against each commit message.
+agent_trailer_pattern: "co-authored-by: .*(claude|copilot|codex|cursor)"
+
+# Rework: a merged PR counts as reworked if, within this many days of merging,
+# another merged PR touches at least one of the same files and looks like a fix.
+rework_window_days: 14
+fix_title_pattern: "^(revert|fix|hotfix|bugfix)\\b"
+fix_labels:
+  - bug
+  - revert

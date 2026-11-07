@@ -1,0 +1,59 @@
+# Purpose: cost-model inputs for the synthetic "Example Bank" (regulated, 400 engineers).
+# Book: Coding Agents in the Enterprise, Chapter 2
+# Licence: MIT (see LICENSE)
+#
+# EVERY NUMBER HERE IS AN ASSUMPTION. Prices are list prices as of Nov 2026,
+# verify before use: vendors changed pricing several times in 2026.
+# Usage figures are illustrative, chosen to sit inside public benchmarks
+# (Anthropic: ~$150-250 per developer per month for agent use).
+
+organisation:
+  name: Example Bank
+  engineers: 400
+  loaded_cost_per_engineer_hour: 95      # salary + on-costs, USD
+  baseline_merged_prs_per_engineer_month: 10
+  assumed_pr_uplift: 0.15                # +15%; below the +24% Microsoft field result
+
+# Share of each tool's users in each adoption tier (must add to 1.0).
+tiers:
+  light: 0.40
+  regular: 0.40
+  heavy: 0.20
+
+tools:
+  - name: Copilot Enterprise
+    seats: 400
+    seat_price: 39                # per user per month, as of Nov 2026, verify before use
+    included_usage_per_seat: 39   # AI Credits included in the seat, pooled
+    usage_per_user:               # metered usage at API rates, USD per month
+      light: 10
+      regular: 30
+      heavy: 70
+  - name: Claude Code Enterprise
+    seats: 120
+    seat_price: 20                # plus usage at API rates; as of Nov 2026, verify before use
+    included_usage_per_seat: 0
+    usage_per_user:
+      light: 40
+      regular: 150
+      heavy: 400
+  - name: Cursor Teams
+    seats: 40
+    seat_price: 30                # Teams "from $30" (cursor.com pricing, Oct 2026), verify before use
+    included_usage_per_seat: 0    # included usage not verified; modelled as zero
+    usage_per_user:
+      light: 0
+      regular: 10
+      heavy: 40
+
+# Monthly platform costs (USD): gateway, logging, scanning.
+platform:
+  LLM gateway hosting and support: 1500
+  Telemetry and SIEM ingestion: 800
+  Extra code-scanning capacity: 1200
+
+# Monthly enablement costs (USD), with one-off costs spread over 12 months.
+enablement:
+  Platform engineer (1.0 FTE): 15000
+  Champions (8 at 5% time): 6000
+  Training (6 h each, spread over 12 months): 19000

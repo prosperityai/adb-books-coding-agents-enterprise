@@ -1,0 +1,33 @@
+{
+  "since": "2026-07-01",
+  "until": "2026-10-01",
+  "agent_share": 0.363,
+  "agent_detected_by": {
+    "author": 16,
+    "branch": 21,
+    "label": 14,
+    "trailer": 10
+  },
+  "all": {
+    "merged_prs": 168,
+    "cycle_hours": 17.4,
+    "first_review_hours": 4.9,
+    "size_lines": 115.0,
+    "rework_rate": 0.107
+  },
+  "agent": {
+    "merged_prs": 61,
+    "cycle_hours": 21.4,
+    "first_review_hours": 6.9,
+    "size_lines": 207,
+    "rework_rate": 0.164
+  },
+  "human": {
+    "merged_prs": 107,
+    "cycle_hours": 15.8,
+    "first_review_hours": 4.1,
+    "size_lines": 84,
+    "rework_rate": 0.075
+  },
+  "source": "sample-prs.json"
+}

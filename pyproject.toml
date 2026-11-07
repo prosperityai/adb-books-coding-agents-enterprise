@@ -1,0 +1,32 @@
+# Purpose: project metadata, pinned dependencies and lint settings for the companion toolkit.
+# Book: Coding Agents in the Enterprise, Chapters 2-12 (all tools)
+# Licence: MIT (see LICENSE)
+
+[project]
+name = "adb-books-coding-agents-enterprise"
+version = "1.0.0"
+description = "Companion toolkit for 'Coding Agents in the Enterprise' (ADB Books, 2026)"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Prosperity Paul Kipingili" }]
+requires-python = ">=3.13"
+# Exact pins. Everything else is the Python 3.13 standard library.
+dependencies = [
+    "PyYAML==6.0.3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.1.1",
+    "ruff==0.17.1",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

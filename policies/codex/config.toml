@@ -1,0 +1,37 @@
+# Purpose: OpenAI Codex defaults for Example Bank engineers (~/.codex/config.toml, or
+#          /etc/codex/config.toml / MDM as a default). Users can change these values;
+#          use requirements.toml to enforce limits.
+# Book: Coding Agents in the Enterprise, Chapter 5
+# Licence: MIT (see LICENSE)
+#
+# Keys checked against codex-rs/core/config.schema.json in github.com/openai/codex
+# (main branch, 7 Nov 2026). Verify against the current config reference before use.
+
+# Agent may edit files in the workspace only. Other values: "read-only",
+# "danger-full-access" (never use outside a disposable sandbox).
+sandbox_mode = "workspace-write"
+
+# Ask before leaving the sandbox. Other values: "untrusted" (ask for anything not
+# known safe), "never" (for CI only, with a read-only or disposable sandbox).
+approval_policy = "on-request"
+
+# No web search tool. Other values: "cached", "indexed", "live".
+web_search = "disabled"
+
+[sandbox_workspace_write]
+network_access = false        # no outbound network from commands the agent runs
+writable_roots = []           # absolute paths only, if a build needs one
+exclude_slash_tmp = false
+
+[shell_environment_policy]
+# Pass only core variables (HOME, PATH, SHELL, USER...) to commands, so tokens
+# in the developer's environment are not visible to the agent's shell.
+inherit = "core"
+
+[history]
+persistence = "none"          # do not write prompts to ~/.codex/history.jsonl
+
+[otel]
+environment = "prod"
+log_user_prompt = false       # export events, but redact prompt text
+exporter = { otlp-http = { endpoint = "https://otel.internal.example.com/v1/logs", protocol = "binary" } }

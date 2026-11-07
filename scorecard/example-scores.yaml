@@ -1,0 +1,56 @@
+# Purpose: synthetic example scores for four unnamed tools, to show how the scorecard works.
+# Book: Coding Agents in the Enterprise, Chapter 3
+# Licence: MIT (see LICENSE)
+#
+# SYNTHETIC. "Tool A" to "Tool D" are not real products and these scores make no
+# claim about any vendor. Score real tools yourself, from current documentation
+# and your own vendor questionnaire (templates/vendor-security-questionnaire.md).
+
+evaluated_by: Example Bank architecture board
+date: 2026-11-07
+
+tools:
+  Tool A:
+    sso_scim: 4
+    audit_logs: 4
+    retention: 3
+    managed_policy: 4
+    mcp_control: 4
+    residency: 2
+    self_host: 2
+    ci_cloud_agents: 3
+    pricing: 2
+    model_choice: 2
+  Tool B:
+    sso_scim: 4
+    audit_logs: 3
+    retention: 3
+    managed_policy: 3
+    mcp_control: 3
+    residency: 3
+    self_host: 1
+    ci_cloud_agents: 4
+    pricing: 3
+    model_choice: 4
+  Tool C:
+    sso_scim: 3
+    audit_logs: 3
+    retention: 2
+    managed_policy: 3
+    mcp_control: 3
+    residency: 1
+    self_host: 0
+    ci_cloud_agents: 3
+    pricing: 3
+    model_choice: 4
+  Tool D:
+    sso_scim: 3
+    audit_logs: 3
+    retention: 4
+    managed_policy: 2
+    mcp_control: 2
+    residency: 4
+    self_host: 4
+    ci_cloud_agents: 1
+    pricing: 4
+    model_choice: 2

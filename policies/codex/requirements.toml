@@ -1,0 +1,46 @@
+# Purpose: admin-enforced OpenAI Codex limits for Example Bank. Users cannot override
+#          these. Deploy to /etc/codex/requirements.toml (Linux/macOS),
+#          %ProgramData%\OpenAI\Codex\requirements.toml (Windows), MDM, or the
+#          ChatGPT workspace's managed configuration.
+# Book: Coding Agents in the Enterprise, Chapter 5
+# Licence: MIT (see LICENSE)
+#
+# Keys checked against codex-rs/config/src (requirements loader, exec-policy and
+# MCP requirement types and their tests) in github.com/openai/codex, main branch,
+# 7 Nov 2026. The official managed-configuration page was not reachable when
+# this was written: verify there before deploying.
+
+allowed_sandbox_modes = ["read-only", "workspace-write"]      # no danger-full-access
+allowed_approval_policies = ["untrusted", "on-request"]       # no "never" on laptops
+allowed_web_search_modes = ["disabled", "cached"]
+
+# Only hooks from managed layers run (this file or managed config).
+allow_managed_hooks_only = true
+
+# Command rules. A pattern matches the start of the command, token by token.
+# Decisions used here: "prompt" (ask the user) or "forbidden" (refuse).
+# Prefix matching is literal: "git push origin main --force" does NOT match the
+# force rule below, so keep the PreToolUse-style hook and server-side branch
+# protection as well.
+[[rules.prefix_rules]]
+pattern = [{ token = "rm" }, { any_of = ["-rf", "-fr", "-Rf"] }]
+decision = "forbidden"
+justification = "Recursive force delete is blocked. Ask a human."
+
+[[rules.prefix_rules]]
+pattern = [{ token = "git" }, { token = "push" }, { any_of = ["--force", "-f"] }]
+decision = "forbidden"
+justification = "Force push is blocked. Branch protection also refuses it."
+
+[[rules.prefix_rules]]
+pattern = [{ token = "curl" }]
+decision = "prompt"
+justification = "Network downloads need a human decision."
+
+# Files the agent may never read.
+[permissions.filesystem]
+deny_read = ["~/.ssh", "~/.aws", "~/.config/gh"]
+
+# MCP allowlist: only servers matching these identities may run.
+[mcp_servers.internal-docs.identity]
+url = { match = "prefix", value = "https://mcp.internal.example.com/" }

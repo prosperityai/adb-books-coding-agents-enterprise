@@ -1,0 +1,83 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(npm run test *)",
+      "Bash(pytest *)"
+    ],
+    "ask": [
+      "Bash(git push *)",
+      "Bash(npm install *)",
+      "Bash(pip install *)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)",
+      "Read(~/.ssh/**)",
+      "Read(~/.aws/**)",
+      "Edit(./.env)",
+      "Edit(./.env.*)",
+      "Bash(curl *)",
+      "Bash(wget *)",
+      "Bash(rm -rf *)",
+      "Bash(git push --force *)"
+    ],
+    "disableBypassPermissionsMode": "disable"
+  },
+  "allowManagedPermissionRulesOnly": true,
+  "allowManagedHooksOnly": true,
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|Write|Edit|MultiEdit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /etc/claude-code/hooks/block_secrets_and_destructive.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /etc/claude-code/hooks/audit_log.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  },
+  "allowedMcpServers": [
+    { "serverUrl": "https://mcp.example.com/*" },
+    { "serverUrl": "https://*.internal.example.com/*" }
+  ],
+  "deniedMcpServers": [
+    { "serverUrl": "https://*.untrusted.example.com/*" }
+  ],
+  "allowManagedMcpServersOnly": true,
+  "sandbox": {
+    "enabled": true,
+    "failIfUnavailable": true,
+    "allowUnsandboxedCommands": false,
+    "network": {
+      "allowedDomains": [
+        "github.com",
+        "registry.npmjs.org",
+        "pypi.org",
+        "files.pythonhosted.org"
+      ],
+      "allowManagedDomainsOnly": true
+    }
+  },
+  "cleanupPeriodDays": 14,
+  "companyAnnouncements": [
+    "Example Bank: agent use is logged. Read the acceptable-use policy before you start."
+  ]
+}

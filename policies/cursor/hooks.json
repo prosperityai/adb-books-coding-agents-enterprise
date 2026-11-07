@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeShellExecution": [
+      {
+        "command": "python3 /etc/cursor/hooks/block_secrets_and_destructive.py",
+        "timeout": 10,
+        "failClosed": true
+      }
+    ]
+  }
+}

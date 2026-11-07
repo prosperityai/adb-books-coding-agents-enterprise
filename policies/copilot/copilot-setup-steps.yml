@@ -1,0 +1,41 @@
+# Purpose: pre-install dependencies for the GitHub Copilot coding agent, so the agent
+#          needs less internet access and the firewall allowlist can stay short.
+#          Save as .github/workflows/copilot-setup-steps.yml on the default branch.
+# Book: Coding Agents in the Enterprise, Chapter 5
+# Licence: MIT (see LICENSE)
+#
+# Rules from GitHub's docs (checked 7 Nov 2026):
+# - the file must contain one job, and it MUST be named copilot-setup-steps;
+# - only steps, permissions, runs-on, services, snapshot and timeout-minutes
+#   (max 59) are honoured in that job; other settings are ignored;
+# - it only takes effect once it is on the default branch.
+
+name: "Copilot Setup Steps"
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+  pull_request:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+
+jobs:
+  copilot-setup-steps:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    # Least privilege: the agent's own token is separate; this job only reads code.
+    permissions:
+      contents: read
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install pinned dependencies
+        run: pip install -r requirements.txt
